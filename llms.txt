@@ -1,0 +1,35 @@
+# Native Display Gallery — CleverTap Field Guide 11
+
+> An interactive reference gallery of 180 CleverTap Native Display use cases across 15 verticals, on web and app. Native Display is content that renders inside your own app or website (cards, banners, carousels in the feed or page) with no pop-up interruption. Included on CleverTap Advanced and Cutting Edge plans. Built by SJ Neo for CSM and sales reference; all brands shown are fictional and all figures are illustrative.
+
+## Gallery
+
+- [Live gallery](https://shijunneo-bot.github.io/ct-native-display-gallery/): 180 use cases with wireframe and branded execution mockups, deep-dive modals, filters, a Visual Editor showcase, and a 20-question FAQ.
+
+## What Native Display is
+
+- Content that renders inside the app or website in slots the developers wired, filled by marketers from the dashboard without a release.
+- App templates: Simple Message, Carousel Message (up to 5 slides), Message with Icon, Custom Key-Value, image-only variants. iOS SDK 3.7.2+ and Android 3.6.2+.
+- Web templates: Custom Key-Value, Banner, Banner Carousel (up to 7), Banner with Text, Banner Carousel with Text. Web SDK 1.3.0+ (Visual Editor needs 1.13.1+).
+- Custom Key-Value sends raw fields; your code renders and raises Notification Viewed and Notification Clicked. Default templates render without design work.
+- The Visual Editor (paid Advanced Web Personalization add-on) lets marketers edit any visible web element by point-and-click. It edits existing pages, not new ones, and does not process form submissions.
+- The same event can feed different campaigns through different event property filters.
+
+## Official CleverTap documentation
+
+- [Native Display overview](https://docs.clevertap.com/docs/native-display)
+- [Set up Native Display](https://docs.clevertap.com/docs/setup-native-display)
+- [Create a message](https://docs.clevertap.com/docs/create-message-native-display)
+- [Personalize a message](https://docs.clevertap.com/docs/personalize-message-native-display)
+- [Campaign stats](https://docs.clevertap.com/docs/native-display-campaign-stats)
+- [Web Native Display overview](https://docs.clevertap.com/docs/web-native-display)
+- [Web personalization setup](https://docs.clevertap.com/docs/web-personalization-setup)
+- [Web create message](https://docs.clevertap.com/docs/web-native-display-create-message)
+- [Visual Editor](https://docs.clevertap.com/docs/web-native-display-editor)
+- [Advanced personalization](https://docs.clevertap.com/docs/advanced-personalization)
+- [Web personalize](https://docs.clevertap.com/docs/web-native-display-personalize)
+- [Web stats](https://docs.clevertap.com/docs/web-native-display-stats)
+
+## The gallery network
+
+- [Field Guide Family](https://shijunneo-bot.github.io/amp-email-gallery/): twelve galleries covering AMP email, rich push, SMS, WhatsApp, in-app, linked content, recommendations, geofencing, reminders, promos, native display, and product experiences.
