@@ -1,0 +1,1146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Native Display Gallery — 180 Web &amp; App Use Cases with Code · CleverTap · SJ Neo</title>
+<meta name="description" content="180 CleverTap Native Display use cases across 15 verticals: web and app templates, custom key-value code, wireframe plus branded executions, developer setup, Visual Editor add-on guide, and a 20-question FAQ.">
+<meta name="keywords" content="CleverTap Native Display, web native display, app native display, custom key value pairs, display units, native display templates, visual editor, advanced web personalization, in-app content, CleverTap SDK">
+<meta name="author" content="SJ Neo · CleverTap CSM">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://shijunneo-bot.github.io/ct-native-display-gallery/">
+<meta name="theme-color" content="#0C1416" media="(prefers-color-scheme: dark)">
+<meta name="theme-color" content="#F5F7F8" media="(prefers-color-scheme: light)">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://shijunneo-bot.github.io/ct-native-display-gallery/">
+<meta property="og:site_name" content="CleverTap Field Guides · SJ Neo">
+<meta property="og:title" content="Native Display Gallery — 180 Web &amp; App Use Cases · CleverTap">
+<meta property="og:description" content="180 CleverTap Native Display use cases across 15 verticals: web and app templates, custom key-value code, wireframe plus branded executions, developer setup, Visual Editor add-on guide, and a 20-question FAQ.">
+<meta property="og:image" content="https://clevertap.com/wp-content/uploads/2023/08/apple-touch-icon-1.png">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Native Display Gallery · 180 Use Cases with Code">
+<meta name="twitter:description" content="180 CleverTap Native Display use cases across 15 verticals: web and app templates, custom key-value code, wireframe plus branded executions, developer setup, Visual Editor add-on guide, and a 20-question FAQ.">
+<link rel="icon" type="image/png" sizes="32x32" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAw1BMVEUAAADZJSXZJSXaJCTZJSXZJSXYJibZJSXZJibaJSXXJSXZJSXXGxvZJCTaJSXZJCTfICDZJCTZJSXZJibZJSXZJSXZJSXYJCTWIyPZJibYJSXXJSXZJibaJSXhHh7ZJib////aKSn+9fX87+/dOjr++vr1x8fxsbHwqaniWFjbMTHaLS3539/zubnslJTqiYnmc3PjXV3dPz/65+f64+P3z8/0wsLuoaHtmprphITzvb3rjo7neXnneHjgUlLfSEjeRUWc+FVEAAAAH3RSTlMA7Cma8cj69uWNDc8Sk1ImDzX55tCciFcs0J1ZWDcRJhWn4gAAAUZJREFUOMt9k9eagjAQhYemAhbcVdetGbqAvbv9/Z9qv2Xoif43CcyBk0xOoMTq9zSp1ZK0Xt8CnoEisQJJGTTK1kRlNdSJVft8xDhGlZ+8dpiAzjCvy/dMSEemuvHIiKSpMI1UoNOT/bVfNhV6atCm+gnx2BS0/03GNF8iBlvWRAHoUgMiHxcJ41C78EIGAc5jJuABlHT89XHNFclDS8cLurFQoAEd0QwDJkSCVjoecSYW3GWCBYZXBIXF4ZoFLXKN/la8yGybnounWsFO8m0+0+SMTlQVhM6GGpW32pvj7puVHHCdtRqe6E3koLuKSXyexd7GJofiuNnGRXTD1edq4SBG+XFTYIht6CPhLO1KYMAwWcbPR7Dfzd8vXhE5PrR2Ug8tMbwRe0I2+bopQwVDbzfiqhtQZzpWK1FUpsDTLa//GxT8AUhnYjZaLuDLAAAAAElFTkSuQmCC">
+<link rel="shortcut icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAw1BMVEUAAADZJSXZJSXaJCTZJSXZJSXYJibZJSXZJibaJSXXJSXZJSXXGxvZJCTaJSXZJCTfICDZJCTZJSXZJibZJSXZJSXZJSXYJCTWIyPZJibYJSXXJSXZJibaJSXhHh7ZJib////aKSn+9fX87+/dOjr++vr1x8fxsbHwqaniWFjbMTHaLS3539/zubnslJTqiYnmc3PjXV3dPz/65+f64+P3z8/0wsLuoaHtmprphITzvb3rjo7neXnneHjgUlLfSEjeRUWc+FVEAAAAH3RSTlMA7Cma8cj69uWNDc8Sk1ImDzX55tCciFcs0J1ZWDcRJhWn4gAAAUZJREFUOMt9k9eagjAQhYemAhbcVdetGbqAvbv9/Z9qv2Xoif43CcyBk0xOoMTq9zSp1ZK0Xt8CnoEisQJJGTTK1kRlNdSJVft8xDhGlZ+8dpiAzjCvy/dMSEemuvHIiKSpMI1UoNOT/bVfNhV6atCm+gnx2BS0/03GNF8iBlvWRAHoUgMiHxcJ41C78EIGAc5jJuABlHT89XHNFclDS8cLurFQoAEd0QwDJkSCVjoecSYW3GWCBYZXBIXF4ZoFLXKN/la8yGybnounWsFO8m0+0+SMTlQVhM6GGpW32pvj7puVHHCdtRqe6E3koLuKSXyexd7GJofiuNnGRXTD1edq4SBG+XFTYIht6CPhLO1KYMAwWcbPR7Dfzd8vXhE5PrR2Ug8tMbwRe0I2+bopQwVDbzfiqhtQZzpWK1FUpsDTLa//GxT8AUhnYjZaLuDLAAAAAElFTkSuQmCC">
+<link rel="apple-touch-icon" sizes="180x180" href="https://clevertap.com/wp-content/uploads/2023/08/apple-touch-icon-1.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root{--bg:#0C1416;--surface:#131F22;--raised:#1A2A2E;--line:#263A3F;--hi:#ECF4F3;--mid:#8FA6A8;--dim:#7C9095;
+    --nd:#FF8FB1;--gold:#F4C64D;--coral:#FF6B57;--green:#35D07F;--blue:#5BA8FF;--purple:#C792EA;
+    --disp:'Space Grotesk',sans-serif;--body:'Inter',sans-serif;--mono:'IBM Plex Mono',monospace;--r:14px;}
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{background:var(--bg);color:var(--hi);font-family:var(--body);line-height:1.5;min-height:100vh;-webkit-font-smoothing:antialiased;
+    background-image:radial-gradient(circle at 14% -10%,rgba(255,143,177,.08),transparent 45%),radial-gradient(circle at 90% 112%,rgba(244,198,77,.05),transparent 40%)}
+  .wrap{max-width:1360px;margin:0 auto;padding:28px 24px 60px}
+  header.top{display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:16px;padding-bottom:20px;border-bottom:1px solid var(--line);margin-bottom:22px}
+  .brandmark{display:flex;align-items:center;gap:10px;font-family:var(--mono);font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--nd)}
+  .brandmark .dot{width:7px;height:7px;border-radius:50%;background:var(--nd);box-shadow:0 0 12px var(--nd);animation:pulse 2s infinite}
+  @keyframes pulse{0%,100%{opacity:1}50%{opacity:.35}}
+  h1{font-family:var(--disp);font-weight:600;font-size:clamp(24px,3.4vw,36px);letter-spacing:-.02em;line-height:1.08;margin-top:10px}
+  h1 em{font-style:normal;color:var(--nd)}
+  .sub{color:var(--mid);font-size:14px;max-width:66ch;margin-top:8px}
+  .count{font-family:var(--mono);font-size:12px;color:var(--dim);text-align:right;white-space:nowrap}.count b{color:var(--hi);font-weight:500}
+  .legend{display:flex;gap:14px;flex-wrap:wrap;margin-top:10px;font-family:var(--mono);font-size:10.5px;color:var(--dim)}
+  .legend span{display:flex;align-items:center;gap:6px}
+  .lg{width:8px;height:8px;border-radius:3px}
+  .lg.ready{background:var(--green)}.lg.caveat{background:var(--gold)}.lg.addon{background:var(--purple)}.lg.dev{background:var(--blue)}
+
+  details.sect{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);margin-bottom:16px;overflow:hidden}
+  details.sect>summary{cursor:pointer;list-style:none;padding:16px 20px;display:flex;align-items:center;justify-content:space-between;font-family:var(--disp);font-weight:600;font-size:16px}
+  details.sect>summary::-webkit-details-marker{display:none}
+  details.sect>summary .chev{font-family:var(--mono);font-size:12px;color:var(--dim);transition:.2s}
+  details.sect[open]>summary .chev{transform:rotate(90deg)}
+  details.sect>summary .tag{font-family:var(--mono);font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:var(--nd);background:rgba(255,143,177,.1);border:1px solid rgba(255,143,177,.25);border-radius:20px;padding:3px 10px;margin-left:12px}
+  .sectbody{padding:0 20px 22px;color:var(--mid);font-size:14px}
+  .sectbody h3{font-family:var(--disp);color:var(--hi);font-size:14px;margin:18px 0 6px}
+  .sectbody p{margin-bottom:10px;max-width:88ch}
+  .sectbody code{font-family:var(--mono);font-size:12px;background:var(--raised);border:1px solid var(--line);border-radius:5px;padding:1px 6px;color:var(--gold)}
+  pre{background:#0A1113;border:1px solid var(--line);border-radius:10px;padding:14px 16px;overflow-x:auto;font-family:var(--mono);font-size:12px;line-height:1.6;color:#B8CDD0;margin:10px 0 14px}
+  pre .c{color:var(--dim)}pre .k{color:var(--nd)}pre .s{color:var(--gold)}pre .f{color:var(--blue)}
+  .grid2{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+  @media(max-width:900px){.grid2{grid-template-columns:1fr}}
+  .mini{background:var(--raised);border:1px solid var(--line);border-radius:10px;padding:14px 16px}
+  .mini h4{font-family:var(--disp);font-size:13px;color:var(--hi);margin-bottom:6px}
+  .mini h4 .pill{font-family:var(--mono);font-size:9px;letter-spacing:.08em;text-transform:uppercase;border-radius:12px;padding:2px 8px;margin-left:8px;vertical-align:middle}
+  .pill.inc{color:var(--green);background:rgba(53,208,127,.1);border:1px solid rgba(53,208,127,.3)}
+  .pill.add{color:var(--purple);background:rgba(199,146,234,.1);border:1px solid rgba(199,146,234,.3)}
+  .mini p{font-size:12.5px;margin-bottom:6px}
+  table{width:100%;border-collapse:collapse;font-size:13px;margin:10px 0 6px}
+  th,td{text-align:left;padding:9px 12px;border-bottom:1px solid var(--line);vertical-align:top}
+  th{font-family:var(--mono);font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--dim)}
+  td{color:var(--mid)}td b,td strong{color:var(--hi);font-weight:600}
+  .tblscroll{overflow-x:auto}
+  .ok{color:var(--green)}.warn{color:var(--gold)}.no{color:var(--coral)}.ad{color:var(--purple)}
+  .note{background:rgba(244,198,77,.06);border:1px solid rgba(244,198,77,.25);border-radius:10px;padding:12px 14px;font-size:12.5px;color:var(--mid);margin:10px 0}
+  .note b{color:var(--gold)}
+
+  /* filter bar */
+  .filters{position:sticky;top:0;z-index:50;background:rgba(12,20,22,.92);backdrop-filter:blur(8px);border:1px solid var(--line);border-radius:var(--r);padding:12px 14px;margin:20px 0 18px;display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+  .fgrp{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin-right:10px}
+  .flabel{font-family:var(--mono);font-size:9.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--dim);margin-right:2px}
+  .fbtn{font-family:var(--body);font-size:12px;color:var(--mid);background:var(--surface);border:1px solid var(--line);border-radius:18px;padding:5px 12px;cursor:pointer;transition:.15s}
+  .fbtn:hover{border-color:var(--nd);color:var(--hi)}
+  .fbtn.on{background:rgba(255,143,177,.12);border-color:var(--nd);color:var(--nd)}
+  select.fsel{font-family:var(--body);font-size:12px;color:var(--hi);background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:6px 10px;cursor:pointer}
+  .fcount{margin-left:auto;font-family:var(--mono);font-size:11px;color:var(--dim)}
+
+  /* gallery */
+  .gal{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:14px}
+  .card{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:14px;display:flex;flex-direction:column;gap:10px;transition:.18s}
+  .card:hover{border-color:var(--nd);transform:translateY(-2px)}
+  .chead{display:flex;justify-content:space-between;align-items:flex-start;gap:8px}
+  .cname{font-family:var(--disp);font-weight:600;font-size:14px;line-height:1.25}
+  .cvert{font-family:var(--mono);font-size:9.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--nd);margin-bottom:3px}
+  .stamp{font-family:var(--mono);font-size:9px;letter-spacing:.06em;border-radius:5px;padding:3px 7px;white-space:nowrap;flex-shrink:0}
+  .stamp.ready{color:var(--green);background:rgba(53,208,127,.1);border:1px solid rgba(53,208,127,.3)}
+  .stamp.caveat{color:var(--gold);background:rgba(244,198,77,.1);border:1px solid rgba(244,198,77,.3)}
+  .stamp.addon{color:var(--purple);background:rgba(199,146,234,.1);border:1px solid rgba(199,146,234,.3)}
+  .csc{font-size:12.5px;color:var(--mid);line-height:1.45}
+  .cmeta{display:flex;flex-wrap:wrap;gap:5px}
+  .mtag{font-family:var(--mono);font-size:9px;color:var(--dim);background:var(--raised);border:1px solid var(--line);border-radius:5px;padding:2px 7px}
+  .mtag.surf{color:var(--blue);border-color:rgba(91,168,255,.35)}
+  .mtag.tmpl{color:var(--nd);border-color:rgba(255,143,177,.3)}
+  .mtag.mech{color:var(--gold);border-color:rgba(244,198,77,.3)}
+  .mtag.dev{color:var(--blue)}
+  .cloc{font-family:var(--mono);font-size:10px;color:var(--dim)}
+  .cloc b{color:var(--mid);font-weight:500}
+
+  /* mini mockups */
+  .mock{display:flex;justify-content:center;padding:8px 0 2px}
+  .mphone{width:120px;height:200px;background:#05090A;border-radius:18px;padding:5px;border:1px solid var(--line);position:relative;flex-shrink:0}
+  .mphone::after{content:"";position:absolute;top:9px;left:50%;transform:translateX(-50%);width:36px;height:3px;border-radius:2px;background:#1c2a2e;z-index:5}
+  .mscreen{width:100%;height:100%;border-radius:13px;background:#F6F8F9;overflow:hidden;display:flex;flex-direction:column;font-size:6px}
+  .mbrowser{width:250px;height:170px;background:#05090A;border-radius:10px;border:1px solid var(--line);overflow:hidden;display:flex;flex-direction:column;flex-shrink:0}
+  .mbar{height:20px;background:#101A1C;display:flex;align-items:center;gap:4px;padding:0 8px;flex-shrink:0}
+  .mbar i{width:6px;height:6px;border-radius:50%;background:#2a3d42;display:block}
+  .mbar .url{flex:1;height:9px;background:#1a2a2e;border-radius:5px;margin-left:4px}
+  .mpage{flex:1;background:#F6F8F9;position:relative;padding:8px;display:flex;flex-direction:column;gap:5px;overflow:hidden}
+  .sk{background:#E3E9ED;border-radius:3px}
+  .skrow{display:flex;gap:5px}
+  .ndu{border:1.5px dashed var(--nd);border-radius:6px;background:linear-gradient(135deg,rgba(255,143,177,.18),rgba(244,198,77,.12));position:relative;display:flex;align-items:center;justify-content:center;gap:4px;padding:4px}
+  .ndu .lbl{font-family:var(--mono);font-size:7px;color:#B0426A;letter-spacing:.04em;text-align:center;line-height:1.3}
+  .ndu .dotrow{position:absolute;bottom:2px;left:0;right:0;display:flex;justify-content:center;gap:2px}
+  .ndu .dotrow i{width:3px;height:3px;border-radius:50%;background:#B0426A;opacity:.5;display:block}
+  .ndu .dotrow i:first-child{opacity:1}
+  .ndu .kvchip{font-family:var(--mono);font-size:6.5px;color:#7A2F4E;background:rgba(255,255,255,.6);border-radius:3px;padding:1px 4px}
+  .ndu .ico{width:12px;height:12px;border-radius:4px;background:#B0426A;opacity:.7;flex-shrink:0}
+  .mtop{height:22px;background:#fff;border-bottom:1px solid #eef1f4;display:flex;align-items:center;gap:4px;padding:8px 7px 2px;flex-shrink:0}
+  .mtop .mlogo{width:9px;height:9px;border-radius:3px;background:var(--nd)}
+  .mtop .mttl{width:34px;height:6px;border-radius:3px;background:#0C1416;opacity:.8}
+  .mtop .msrch{margin-left:auto;width:26px;height:8px;border-radius:5px;background:#f0f2f5}
+  .mfeed{flex:1;padding:6px;display:flex;flex-direction:column;gap:5px;overflow:hidden}
+  .mtabs{height:16px;background:#fff;border-top:1px solid #eef1f4;display:flex;justify-content:space-around;align-items:center;flex-shrink:0}
+  .mtabs i{width:8px;height:8px;border-radius:3px;background:#dfe6ea;display:block}
+  .mtabs i:first-child{background:var(--nd);opacity:.8}
+
+  footer{margin-top:36px;padding-top:18px;border-top:1px solid var(--line);color:var(--dim);font-size:12px;display:flex;flex-wrap:wrap;gap:14px;justify-content:space-between}
+  footer a{color:var(--mid)}
+  .suite{display:flex;flex-wrap:wrap;gap:8px}
+  .suite a{font-family:var(--mono);font-size:10px;text-decoration:none;border:1px solid var(--line);border-radius:14px;padding:4px 10px;color:var(--mid);transition:.15s}
+  .suite a:hover{border-color:var(--nd);color:var(--nd)}
+</style>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebPage", "name": "Native Display Gallery — 180 Web &amp; App Use Cases with Code · CleverTap · SJ Neo", "description": "180 CleverTap Native Display use cases across 15 verticals: web and app templates, custom key-value code, wireframe plus branded executions, developer setup, Visual Editor add-on guide, and a 20-question FAQ.", "url": "https://shijunneo-bot.github.io/ct-native-display-gallery/", "author": {"@type": "Person", "name": "SJ Neo", "jobTitle": "Enterprise Customer Success Manager"}, "isPartOf": {"@type": "CreativeWorkSeries", "name": "CleverTap Field Guides · Gallery Network"}}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "How do I choose where Native Display appears in the app?", "acceptedAnswer": {"@type": "Answer", "text": "Placement is decided in the app's code, once. Your developers pick the slots (home feed position 2, checkout strip, account banner) and render Display Units there. After that, marketers fill those slots from the dashboard without touching code. Best practice: agree a named slot list with the product team (like agreeing shelf locations in a store), and pass the slot name in the campaign's key-value pairs so the app knows which shelf each campaign belongs on."}}, {"@type": "Question", "name": "How do I choose where it appears on the website?", "acceptedAnswer": {"@type": "Answer", "text": "Two ways. For Banner and Carousel templates, you enter the Div ID of the target container when building the campaign, and CleverTap renders into that box. For Key-Value campaigns, the first key is always topic: your site listens for the event, reads the topic, and routes the content to the right spot. With the Visual Editor add-on, you skip both and simply click the element on a live view of the page."}}, {"@type": "Question", "name": "What is the difference between a default template and Custom Key-Value?", "acceptedAnswer": {"@type": "Answer", "text": "A default template (Simple Message, Carousel, Banner) is a ready-made frame: CleverTap defines the structure, you fill in text and images, and it renders with no design work. Custom Key-Value sends only the raw ingredients (names, prices, offer text) and your own code draws the card, so it can look exactly like the product. Templates are faster to launch; Key-Value gives total design freedom in exchange for one-time developer work."}}, {"@type": "Question", "name": "How do I actually use custom key-value pairs, step by step?", "acceptedAnswer": {"@type": "Answer", "text": "Four steps. One: marketer adds key-value pairs in the campaign (on web, the first key is topic, which acts like an address label). Two: the developer adds a listener, on web for the CT_web_native_display event, on app via the Display Unit callback. Three: the code reads the values and draws the element. Four: the code reports back by raising Notification Viewed and Notification Clicked. Steps two to four are built once; after that, marketers change the content any day without engineering."}}, {"@type": "Question", "name": "Do I need developers for every campaign?", "acceptedAnswer": {"@type": "Answer", "text": "No. Developers are needed once per surface: to set up the SDK, choose app slots, and (for Key-Value) build the render-and-report code. After that one-time wiring, template campaigns and content changes are fully marketer-run. The recurring engineering cost is close to zero, which is a big part of the commercial case."}}, {"@type": "Question", "name": "Is Native Display included in my plan or an extra cost?", "acceptedAnswer": {"@type": "Answer", "text": "Web and App Native Display are included on Advanced and Cutting Edge plans. On Essentials, App Native Display is an add-on and Web Native Display is not offered. So for most enterprise accounts this is capability already paid for and often under-used. (Confirm your exact contract line items with your CleverTap team.)"}}, {"@type": "Question", "name": "How is this different from in-app messages and pop-ups?", "acceptedAnswer": {"@type": "Answer", "text": "Pop-ups interrupt: they appear over the screen and demand a decision. Native Display sits inside the screen, as part of the feed or page, so nobody dismisses it in annoyance. Practical effect: you can run it always-on in high-traffic spots without hurting the experience, which pop-up fatigue does not allow."}}, {"@type": "Question", "name": "Can I personalize with the user's name, points, or prices?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Any field marked with the @ symbol accepts personalization: type @ or {{ }} and pick a profile or event property, with a default fallback value. That covers names, balances, dates, amounts, even the image URL and the deep link. One web caveat: client-side personalization only sees properties set in the current session, not values written through the server API."}}, {"@type": "Question", "name": "Can it show product recommendations automatically?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, with a catalog. Upload your product catalog, connect it to an event, and the recommendation engine can fill a carousel per user. Plan for the warm-up: relationships form from your data over roughly the first 24 hours after upload, and published recommendations can take up to 24 hours to go live. Not a same-morning launch, but fully automatic after that."}}, {"@type": "Question", "name": "Why are my campaign stats showing zero even though the unit renders?", "acceptedAnswer": {"@type": "Answer", "text": "Almost always because the code is not raising the events. Viewed and Clicked on the dashboard come only from the app or site calling the report functions. If those calls are missing, the campaign works perfectly and reports nothing. It is the first thing to check, before anything else."}}, {"@type": "Question", "name": "Can I A/B test Native Display campaigns?", "acceptedAnswer": {"@type": "Answer", "text": "Yes: up to 3 message variants in an A/B test, plus Split Delivery, plus variation by user property (up to 50 variants), plus control groups to measure true lift. So you can prove the revenue effect of a slot, not just report clicks."}}, {"@type": "Question", "name": "What happens if two campaigns target the same slot?", "acceptedAnswer": {"@type": "Answer", "text": "Priority decides. On web, priority is keyed to the target selector and only the highest-priority campaign runs (a campaign runs entirely or not at all). On app, campaign priority runs 1 to 10 and 10 wins; newer SDKs also allow several campaigns from one event to fill several slots at once."}}, {"@type": "Question", "name": "What media can I use?", "acceptedAnswer": {"@type": "Answer", "text": "Images (jpg, jpeg, png, gif), audio (mp3) and video (mp4) on app templates; note that png converts to jpeg using your chosen background color. App carousels hold up to 5 slides; web banner carousels rotate up to 7 banners."}}, {"@type": "Question", "name": "What if CleverTap is slow or sends nothing? Will there be a hole in my page?", "acceptedAnswer": {"@type": "Answer", "text": "Only if you skip the fallback, so never skip the fallback. Always configure default content in the slot: the page or app shows its own default until CleverTap's content arrives, and keeps showing it if nothing arrives. An empty slot is worse than no campaign."}}, {"@type": "Question", "name": "Which SDK versions do we need?", "acceptedAnswer": {"@type": "Answer", "text": "App: iOS 3.7.2+ and Android 3.6.2+ for Native Display basics (Linked Content in units needs much newer builds). Web: the current Web SDK, 1.3.0+ for the feature and 1.13.1+ if you want the Visual Editor. Worth checking early, because an SDK upgrade is the one item with a real lead time."}}, {"@type": "Question", "name": "Can I target by segment and live behavior?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, the full CleverTap targeting toolkit applies: saved segments, user properties, and live behavior for triggered campaigns, plus scheduling and delivery preferences. Native Display is a channel like any other; only the rendering surface is different."}}, {"@type": "Question", "name": "What does the Visual Editor add that I do not already have?", "acceptedAnswer": {"@type": "Answer", "text": "Standard Web Native Display fills slots you agreed in advance. The Visual Editor (part of the paid Advanced Web Personalization add-on) lets a marketer click any element on a live view of the page and change it: text, images, buttons, colors, spacing. It removes the two remaining bottlenecks: pre-agreed slots and the web release cycle."}}, {"@type": "Question", "name": "Can the Visual Editor create a custom landing page from scratch?", "acceptedAnswer": {"@type": "Answer", "text": "Honest answer: no. The Visual Editor edits pages that already exist; you give it a URL and it loads that live page for editing. It is a redecorating tool, not a page builder. If you need a genuinely new landing page, your web team (or a page-builder tool) creates it, and then the Visual Editor can personalize every element of it per segment, which is where it shines."}}, {"@type": "Question", "name": "Can I embed a form (like an email sign-up) through the Visual Editor?", "acceptedAnswer": {"@type": "Answer", "text": "Partly, with care. The editor's Edit HTML and Insert Element features can inject an HTML block, and the Custom HTML template can carry a form's markup. But CleverTap does not process the form submission: where the entered data goes must be wired by your web team (their endpoint, their validation). So treat it as \"yes for the visible form, your site for the plumbing\", and verify the specifics with your CleverTap contact since the Visual Editor is in Private Beta and capabilities are still moving."}}, {"@type": "Question", "name": "Will Native Display slow my app or site down?", "acceptedAnswer": {"@type": "Answer", "text": "It is designed not to: the content request runs alongside your page or app load, and with a fallback configured the user never waits on it. The practical safeguard is the same as the previous answer: default content in the slot, so nothing blocks and nothing gapes."}}, {"@type": "Question", "name": "Where should we start if we have never used it?", "acceptedAnswer": {"@type": "Answer", "text": "One slot, one vertical use case, two weeks. Pick the busiest screen (usually the home feed or the cart), run one templated campaign with a control group, and read the conversion lift, not the clicks. That single number is what funds the second slot, and eventually the add-on conversation."}}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "ItemList", "name": "CleverTap Field Guide Gallery Network", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "AMP Email Gallery", "url": "https://shijunneo-bot.github.io/amp-email-gallery/"}, {"@type": "ListItem", "position": 2, "name": "Rich Push Gallery", "url": "https://shijunneo-bot.github.io/rich-push-gallery/"}, {"@type": "ListItem", "position": 3, "name": "SMS Field Guide", "url": "https://shijunneo-bot.github.io/ct-sms-field-guide/"}, {"@type": "ListItem", "position": 4, "name": "WhatsApp Add-on Gallery", "url": "https://shijunneo-bot.github.io/whatsapp-addon-gallery/"}, {"@type": "ListItem", "position": 5, "name": "Linked Content Gallery", "url": "https://shijunneo-bot.github.io/ct-linked-content-gallery/"}, {"@type": "ListItem", "position": 6, "name": "Recommendations & Catalog Gallery", "url": "https://shijunneo-bot.github.io/ct-recommendations-gallery/"}, {"@type": "ListItem", "position": 7, "name": "Geofence Gallery", "url": "https://shijunneo-bot.github.io/ct-geofencing-gallery/"}, {"@type": "ListItem", "position": 8, "name": "Reminders Gallery", "url": "https://shijunneo-bot.github.io/ct-reminders-gallery/"}, {"@type": "ListItem", "position": 9, "name": "Promos Gallery", "url": "https://shijunneo-bot.github.io/ct-promos-gallery/"}, {"@type": "ListItem", "position": 10, "name": "In-App Template Gallery", "url": "https://shijunneo-bot.github.io/ct-template-gallery/"}, {"@type": "ListItem", "position": 11, "name": "Native Display Gallery", "url": "https://shijunneo-bot.github.io/ct-native-display-gallery/"}, {"@type": "ListItem", "position": 12, "name": "Product Experiences Gallery", "url": "https://shijunneo-bot.github.io/ct-product-experiences-gallery/"}]}</script>
+<style>
+/* ===== UAT pass: a11y, themes, perf ===== */
+.skip{position:absolute;left:-9999px;top:0;background:var(--gold);color:#111;padding:10px 16px;border-radius:0 0 10px 0;font-family:var(--disp);font-weight:600;z-index:200}
+.skip:focus{left:0}
+:focus-visible{outline:2px solid var(--gold);outline-offset:2px;border-radius:4px}
+.card:focus-visible{outline:2px solid var(--gold);outline-offset:2px}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important}.card:hover{transform:none}}
+@media(pointer:coarse){.fbtn,.cbtn,.fsel{min-height:44px}.mclose{width:44px;height:44px}}
+.card{content-visibility:auto;contain-intrinsic-size:430px}
+.themetog{font-family:var(--mono);font-size:11px;background:var(--surface);border:1px solid var(--line);color:var(--mid);border-radius:18px;padding:7px 14px;cursor:pointer;margin-top:8px}
+.themetog:hover{border-color:var(--gold);color:var(--hi)}
+/* ===== Day mode ===== */
+[data-theme="light"]{--bg:#F5F7F8;--surface:#FFFFFF;--raised:#EDF1F3;--line:#D7DFE3;--hi:#10181B;--mid:#3F5257;--dim:#5C7076;
+  --nd:#B02D5C;--gold:#8A6D0B;--coral:#B33A28;--green:#177347;--blue:#1D5FD6;--purple:#7A2FD0;--px:#7A2FD0}
+[data-theme="light"] body,body[data-theme="light"]{background-image:radial-gradient(circle at 14% -10%,rgba(176,45,92,.06),transparent 45%),radial-gradient(circle at 90% 112%,rgba(138,109,11,.05),transparent 40%)}
+[data-theme="light"] .filters{background:rgba(245,247,248,.92)}
+[data-theme="light"] pre{background:#101A1D;border-color:#2A3A3F}
+[data-theme="light"] .mphone,[data-theme="light"] .mbrowser{border-color:#B8C4C9;background:#1A2426}
+[data-theme="light"] .mbar{background:#22302F}
+[data-theme="light"] .modalbg{background:rgba(20,28,30,.55)}
+</style>
+<style>
+/* modal big mockups */
+.mockpair.big{margin:4px 0 2px}
+.zoomwrap{overflow:visible}
+.zoomwrap.zp{width:172px;height:300px}
+.zoomwrap.zb{width:250px;height:198px}
+.zoomin{transform:scale(1.65);transform-origin:top left}
+@media(max-width:640px){.mockpair.big{flex-wrap:wrap}.zoomin{transform:scale(1.15)}.zoomwrap.zp{width:122px;height:212px}.zoomwrap.zb .zoomin{transform:scale(1)}.zoomwrap.zb{width:152px;height:120px}}
+.mtags{display:flex;flex-wrap:wrap;gap:5px;justify-content:center;margin:6px 0 2px}
+</style>
+<style>
+/* ===== cover: inflated banner scene ===== */
+.cvtog{position:absolute;top:18px;right:18px;z-index:5}
+.cover{position:fixed;inset:0;z-index:90;background:var(--bg);overflow:auto;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:40px 20px;perspective:1100px;transition:transform .75s cubic-bezier(.7,0,.3,1),opacity .75s}
+.cover.away{transform:translateY(-100%);opacity:.4;pointer-events:none}
+.cover.gone{display:none}
+html.gated,body.gated{overflow:hidden}
+@media(prefers-reduced-motion:reduce){.cover{transition:none}}
+.cvfumes{position:absolute;inset:-22%;pointer-events:none;filter:blur(64px);opacity:.68}
+.cvfumes i{position:absolute;border-radius:50%;display:block;mix-blend-mode:screen}
+[data-theme="light"] .cvfumes i{mix-blend-mode:multiply}
+[data-theme="light"] .cvfumes{opacity:.5}
+.cf1{width:55vw;height:55vw;left:-10%;top:-5%;background:radial-gradient(circle,#26D08A,transparent 62%);animation:cvd1 7s linear infinite alternate}
+.cf2{width:48vw;height:48vw;right:-8%;top:20%;background:radial-gradient(circle,#FF5C9A,transparent 60%);animation:cvd2 8s linear infinite alternate;opacity:.85}
+.cf3{width:40vw;height:40vw;left:22%;bottom:-15%;background:radial-gradient(circle,#3BE39C,transparent 60%);animation:cvd3 6s linear infinite alternate}
+.cf4{width:34vw;height:34vw;right:18%;bottom:-8%;background:radial-gradient(circle,#FF7DC0,transparent 58%);animation:cvd1 9s linear infinite alternate-reverse;opacity:.78}
+@keyframes cvd1{from{transform:translate(0,0) scale(1)}to{transform:translate(16vw,11vh) scale(1.28)}}
+@keyframes cvd2{from{transform:translate(0,0) scale(1.15)}to{transform:translate(-15vw,16vh) scale(.85)}}
+@keyframes cvd3{from{transform:translate(0,0) scale(.9)}to{transform:translate(12vw,-14vh) scale(1.25)}}
+.cvinner{position:relative;z-index:2;text-align:center}
+.cvcrumb{font-family:var(--mono);font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--nd)}
+.cvtitle{font-family:var(--disp);font-weight:700;font-size:clamp(34px,5.6vw,68px);line-height:1.02;letter-spacing:-.02em;margin-top:14px;color:var(--hi)}
+.cvtitle em{font-style:normal;color:var(--nd)}
+.cvsub{color:var(--mid);font-size:clamp(14px,1.5vw,17px);max-width:52ch;margin:12px auto 0}
+.cvbtn{display:inline-block;border:0;cursor:pointer;margin-top:22px;font-family:var(--disp);font-weight:600;font-size:15px;text-decoration:none;background:var(--nd);color:#1A0B12;border-radius:30px;padding:14px 30px;transition:.2s}
+[data-theme="light"] .cvbtn{color:#fff}
+.cvbtn:hover{transform:translateY(-2px);box-shadow:0 14px 34px -10px rgba(255,143,177,.5)}
+.cvfield{position:relative;z-index:1;width:min(1180px,96vw);height:min(46vh,430px);margin-top:26px;transform-style:preserve-3d}
+.cbal{position:absolute;transform-style:preserve-3d;will-change:transform;filter:drop-shadow(0 28px 28px rgba(0,0,0,.35))}
+[data-theme="light"] .cbal{filter:drop-shadow(0 24px 24px rgba(19,32,25,.22))}
+.cskin{border-radius:24px;padding:20px 24px;position:relative;overflow:hidden;display:flex;flex-direction:column;gap:7px;min-width:215px}
+.cskin::before{content:"";position:absolute;inset:0;background:radial-gradient(ellipse 60% 45% at 26% 16%,rgba(255,255,255,.55),transparent 58%);pointer-events:none}
+.cskin::after{content:"";position:absolute;inset:0;background:radial-gradient(ellipse 90% 60% at 70% 110%,rgba(0,0,0,.28),transparent 60%);pointer-events:none}
+.ctag{font-family:var(--mono);font-size:9px;letter-spacing:.14em;text-transform:uppercase;color:rgba(255,255,255,.85)}
+.ch{font-family:var(--disp);font-weight:700;font-size:19px;color:#fff;line-height:1.15;text-shadow:0 2px 8px rgba(0,0,0,.25)}
+.ccta{align-self:flex-start;font-family:var(--disp);font-weight:600;font-size:12px;background:rgba(255,255,255,.92);color:#14281F;border-radius:16px;padding:6px 14px}
+.cdots{display:flex;gap:5px}.cdots i{width:6px;height:6px;border-radius:50%;background:rgba(255,255,255,.9);display:block}.cdots i+i{opacity:.45}
+.cb1{left:2%;top:4%;animation:cbob1 7.5s ease-in-out infinite alternate}
+.cb2{left:25%;top:48%;animation:cbob2 9s ease-in-out infinite alternate}
+.cb3{left:49%;top:0;animation:cbob3 8.2s ease-in-out infinite alternate}
+.cb4{left:70%;top:44%;animation:cbob1 10s ease-in-out infinite alternate-reverse}
+.cb5{left:37%;top:20%;animation:cspin 16s linear infinite}
+@keyframes cbob1{from{transform:translateY(0) rotateX(8deg) rotateY(-14deg) rotateZ(-3deg)}to{transform:translateY(-26px) rotateX(-6deg) rotateY(10deg) rotateZ(3deg)}}
+@keyframes cbob2{from{transform:translateY(-12px) rotateX(-8deg) rotateY(16deg) rotateZ(2deg)}to{transform:translateY(16px) rotateX(9deg) rotateY(-10deg) rotateZ(-4deg)}}
+@keyframes cbob3{from{transform:translateY(8px) rotateX(6deg) rotateY(-8deg)}to{transform:translateY(-22px) rotateX(-9deg) rotateY(14deg)}}
+@keyframes cspin{from{transform:rotateY(0) translateY(0)}50%{transform:rotateY(180deg) translateY(-16px)}to{transform:rotateY(360deg) translateY(0)}}
+@media(max-width:760px){.cover{min-height:auto}.cvfield{height:auto;display:flex;flex-wrap:wrap;gap:12px;justify-content:center}.cbal{position:static;animation:none}}
+@media(prefers-reduced-motion:reduce){.cvfumes i,.cbal{animation:none!important}}
+</style>
+
+<style>
+/* ===== bokeh depth field (fixed, behind content) ===== */
+.bokeh{position:fixed;inset:0;z-index:-1;overflow:hidden;pointer-events:none}
+.bokeh b{position:absolute;border-radius:34% 66% 58% 42%/42% 40% 60% 58%;will-change:transform;opacity:.5;mix-blend-mode:screen}
+[data-theme="light"] .bokeh b{mix-blend-mode:multiply;opacity:.32}
+/* three depth tiers: far (tiny+very blurred), mid, near (big+soft) */
+.bokeh .far{filter:blur(38px);opacity:.34}
+.bokeh .mid{filter:blur(26px)}
+.bokeh .near{filter:blur(48px);opacity:.42}
+.bk1{width:16vw;height:16vw;left:6%;top:12%;background:radial-gradient(circle at 38% 34%,#3BE39C,transparent 70%);animation:bkA 12s linear infinite alternate}
+.bk2{width:22vw;height:22vw;right:4%;top:8%;background:radial-gradient(circle at 38% 34%,#FF5C9A,transparent 70%);animation:bkB 10s linear infinite alternate}
+.bk3{width:12vw;height:12vw;left:22%;top:38%;background:radial-gradient(circle at 38% 34%,#FF7DC0,transparent 70%);animation:bkC 10s linear infinite alternate}
+.bk4{width:26vw;height:26vw;right:14%;top:34%;background:radial-gradient(circle at 38% 34%,#26D08A,transparent 70%);animation:bkA 12s linear infinite alternate-reverse}
+.bk5{width:14vw;height:14vw;left:2%;top:58%;background:radial-gradient(circle at 38% 34%,#FF5C9A,transparent 70%);animation:bkB 11s linear infinite alternate}
+.bk6{width:20vw;height:20vw;right:2%;top:62%;background:radial-gradient(circle at 38% 34%,#3BE39C,transparent 70%);animation:bkC 9s linear infinite alternate-reverse}
+.bk7{width:10vw;height:10vw;left:44%;top:22%;background:radial-gradient(circle at 38% 34%,#FF9ECF,transparent 70%);animation:bkA 9s linear infinite alternate}
+.bk8{width:18vw;height:18vw;left:36%;top:74%;background:radial-gradient(circle at 38% 34%,#2ED89A,transparent 70%);animation:bkB 13s linear infinite alternate-reverse}
+.bk9{width:13vw;height:13vw;right:30%;top:84%;background:radial-gradient(circle at 38% 34%,#FF6BA6,transparent 70%);animation:bkC 12s linear infinite alternate}
+.bk10{width:24vw;height:24vw;left:12%;top:90%;background:radial-gradient(circle at 38% 34%,#35E0A0,transparent 70%);animation:bkA 10s linear infinite alternate}
+.bk11{width:11vw;height:11vw;right:20%;top:16%;background:radial-gradient(circle at 38% 34%,#FF7DC0,transparent 70%);animation:bkB 10s linear infinite alternate-reverse}
+.bk12{width:15vw;height:15vw;left:58%;top:50%;background:radial-gradient(circle at 38% 34%,#40E8A6,transparent 70%);animation:bkC 13s linear infinite alternate}
+@keyframes bkA{from{transform:translate3d(0,0,0) rotate(0deg) scale(1)}to{transform:translate3d(11vw,-9vh,0) rotate(48deg) scale(1.22)}}
+@keyframes bkB{from{transform:translate3d(0,0,0) rotate(0deg) scale(1.1)}to{transform:translate3d(-12vw,11vh,0) rotate(-40deg) scale(.85)}}
+@keyframes bkC{from{transform:translate3d(0,0,0) rotate(0deg) scale(.95)}to{transform:translate3d(10vw,12vh,0) rotate(36deg) scale(1.28)}}
+@media(prefers-reduced-motion:reduce){.bokeh b{animation:none!important}}
+</style>
+</head>
+<body>
+<script>
+(function(){var t;try{t=localStorage.getItem('ctfg_theme')}catch(e){}
+if(!t){t=window.matchMedia&&window.matchMedia('(prefers-color-scheme: light)').matches?'light':'dark'}
+if(t==='light')document.documentElement.setAttribute('data-theme','light');
+window.toggleTheme=function(btn){var cur=document.documentElement.getAttribute('data-theme')==='light'?'dark':'light';
+if(cur==='light')document.documentElement.setAttribute('data-theme','light');else document.documentElement.removeAttribute('data-theme');
+try{localStorage.setItem('ctfg_theme',cur)}catch(e){}
+var lbl=cur==='light'?'◐ Night mode':'◑ Day mode';document.querySelectorAll('.themetog').forEach(function(b){b.textContent=lbl;b.setAttribute('aria-pressed',cur==='light')})};
+})();
+</script>
+<a class="skip" href="#gal">Skip to gallery</a>
+<div class="bokeh" aria-hidden="true">
+<b class="bk1 mid"></b><b class="bk2 near"></b><b class="bk3 far"></b><b class="bk4 near"></b>
+<b class="bk5 mid"></b><b class="bk6 near"></b><b class="bk7 far"></b><b class="bk8 mid"></b>
+<b class="bk9 far"></b><b class="bk10 near"></b><b class="bk11 far"></b><b class="bk12 mid"></b>
+</div>
+<section class="cover" aria-label="Gallery cover">
+<button class="themetog cvtog" aria-pressed="false" onclick="toggleTheme(this)">◑ Day mode</button>
+<div class="cvfumes" aria-hidden="true"><i class="cf1"></i><i class="cf2"></i><i class="cf3"></i><i class="cf4"></i></div>
+<div class="cvinner">
+  <span class="cvcrumb">CleverTap Field Guide 11 · Native Display</span>
+  <p class="cvtitle">Banners that live<br><em>inside the product</em></p>
+  <p class="cvsub">No pop-ups. No interruptions. Just the right card, in the right slot, already part of your plan.</p>
+  <button class="cvbtn" id="cvEnter" onclick="enterGallery()">Enter the gallery →</button>
+</div>
+<div class="cvfield" id="cvfield" aria-hidden="true">
+  <div class="cbal cb1"><div class="cskin" style="background:linear-gradient(135deg,#1E6B4F,#0C2B20)"><span class="ctag">Web · Banner with Text</span><span class="ch">Payday sale:<br>20% off everything</span><span class="ccta">Shop now</span></div></div>
+  <div class="cbal cb2"><div class="cskin" style="background:linear-gradient(135deg,#FF8FB1,#C2426E)"><span class="ctag">App · Simple Message</span><span class="ch">Running low:<br>1.8GB left</span><span class="ccta">Top up 5GB</span></div></div>
+  <div class="cbal cb3"><div class="cskin" style="background:linear-gradient(135deg,#2E8B6A,#134A36)"><span class="ctag">App · Carousel · 5 slides</span><span class="ch">Pick up where<br>you left off</span><span class="cdots"><i></i><i></i><i></i></span></div></div>
+  <div class="cbal cb4"><div class="cskin" style="background:linear-gradient(135deg,#F4A7C3,#B02D5C)"><span class="ctag">Web · Custom Key-Value</span><span class="ch">{{Name}}, your<br>cart misses you</span><span class="ccta">Checkout</span></div></div>
+  <div class="cbal cb5"><div class="cskin" style="background:linear-gradient(135deg,#0F5C42,#FF8FB1)"><span class="ctag">Web · Banner Carousel</span><span class="ch">Roam Japan<br>from $5/day</span><span class="cdots"><i></i><i></i><i></i></span></div></div>
+</div>
+</section>
+
+<main class="wrap" id="main">
+
+<header class="top">
+  <div>
+    <div class="brandmark"><span class="dot"></span>CleverTap Field Guide · Native Display</div>
+    <h1>Native Display Gallery &amp; Guide<br><em>Web + App, one field guide</em></h1>
+    <p class="sub">Content that renders inside your own app or website, no interruption, no overlay. 180 use cases across 15 verticals, plus developer setup, key-value execution, and the Visual Editor add-on path.</p>
+    <div class="legend">
+      <span><i class="lg ready"></i>Included in subscription (Advanced / Cutting Edge)</span>
+      <span><i class="lg caveat"></i>Caveat: needs catalog, dev rendering, or setup step</span>
+      <span><i class="lg addon"></i>Add-on required (Visual Editor / Custom Templates)</span>
+      <span><i class="lg dev"></i>Dev work flag: app or site code consumes the payload</span>
+    </div>
+  </div>
+  <div class="count"><b>180</b> use cases · <b>15</b> verticals<br><b>2</b> surfaces · <b>11</b> template types<br>v21July · SJ Neo</div>
+  <div><button class="themetog" aria-pressed="false" onclick="toggleTheme(this)">◑ Day mode</button></div>
+</header>
+<style>
+/* v2: dual mockups (wireframe + branded execution) */
+.mockpair{display:flex;gap:10px;justify-content:center;align-items:flex-start;padding:6px 0 2px}
+.mcol{display:flex;flex-direction:column;align-items:center;gap:4px}
+.mocklab{font-family:var(--mono);font-size:8px;letter-spacing:.12em;text-transform:uppercase;color:var(--dim)}
+.mocklab.ex{color:var(--nd)}
+.mphone.sm{width:104px;height:180px;border-radius:16px;padding:4px}
+.mphone.sm::after{width:30px;height:3px;top:8px}
+.mphone.sm .mscreen{border-radius:12px}
+.mbrowser.sm{width:150px;height:118px;border-radius:8px}
+.mbrowser.sm .mbar{height:14px;padding:0 6px}
+.mbrowser.sm .mbar i{width:4px;height:4px}
+.mbrowser.sm .mbar .url{height:6px}
+.mbrowser.sm .mpage{padding:6px;gap:4px}
+.mtop.sm{height:18px;padding:6px 6px 2px}
+.mtabs.sm{height:13px}
+/* branded execution bits */
+.b-top{height:20px;display:flex;align-items:center;gap:3px;padding:7px 6px 2px;flex-shrink:0}
+.b-logo{width:8px;height:8px;border-radius:3px;flex-shrink:0}
+.b-name{font-family:var(--disp);font-weight:700;font-size:6.5px;color:#fff;letter-spacing:.02em;white-space:nowrap}
+.b-nav{height:14px;display:flex;align-items:center;gap:5px;padding:0 7px;flex-shrink:0}
+.b-nav .b-name{font-size:6px}
+.b-nav .lnk{width:12px;height:4px;border-radius:2px;background:rgba(255,255,255,.55)}
+.bx{border-radius:5px;overflow:hidden;position:relative;display:flex;flex-direction:column;justify-content:center;padding:4px 5px;gap:2px}
+.bx .bh{font-family:var(--disp);font-weight:600;font-size:6.4px;line-height:1.25;color:#14181B}
+.bx .bh .lq{font-family:var(--mono);font-size:5.6px;color:#8a3b5c;background:rgba(255,143,177,.25);border-radius:2px;padding:0 2px}
+.bx .bcta{align-self:flex-start;font-family:var(--disp);font-weight:600;font-size:5.6px;color:#fff;border-radius:7px;padding:1.5px 6px}
+.bx.onimg .bh{color:#fff;text-shadow:0 1px 2px rgba(0,0,0,.35)}
+.bx .bdots{position:absolute;bottom:2px;right:4px;display:flex;gap:2px}
+.bx .bdots i{width:3px;height:3px;border-radius:50%;background:rgba(255,255,255,.9);display:block}
+.bx .bdots i+i{opacity:.45}
+.bx .bico{width:14px;height:14px;border-radius:4px;flex-shrink:0}
+.bx.row{flex-direction:row;align-items:center;gap:4px}
+.bx.row .bh{flex:1}
+.bfeed{flex:1;padding:5px;display:flex;flex-direction:column;gap:4px;overflow:hidden}
+</style>
+<!-- ===== EXPLAINER: What Native Display is ===== -->
+<details class="sect" open>
+<summary>How Native Display works (Web vs App)<span><span class="tag">Start here</span><span class="chev">›</span></span></summary>
+<div class="sectbody">
+<p>Imagine your app is a shop. A pop-up is someone stepping in front of a customer to wave a flyer. Native Display is different: it quietly changes what sits on the shelf, a card in the home feed, a banner on a page, a strip at checkout. Customers never feel interrupted, so they do not swat it away.</p>
+<p><b style="color:var(--hi)">Why this matters for money:</b> the home feed and checkout are the busiest spots in the whole product. Native Display puts the right offer in front of the right person exactly there, and it is already part of your plan on Advanced and Cutting Edge. No extra spend, just campaigns you have not run yet.</p>
+<div class="grid2">
+  <div class="mini"><h4>App Native Display <span class="pill inc">Included · Advanced+</span></h4>
+    <p>The CleverTap SDK hands your app a Display Unit (title, message, media, icon, key-values). Your app decides where and how it renders. iOS SDK 3.7.2+ and Android SDK 3.6.2+.</p>
+    <p><b style="color:var(--hi)">Templates:</b> Simple Message, Carousel Message (up to 5 slides), Message with Icon, Custom Key-Value, Image-only Simple, Image-only Carousel.</p></div>
+  <div class="mini"><h4>Web Native Display <span class="pill inc">Included · Advanced+</span></h4>
+    <p>CleverTap either renders into a Div you nominate (banners, carousels) or fires a browser event your site listens for (key-value, JSON). Needs the current Web SDK (1.3.0+; Visual Editor needs 1.13.1+).</p>
+    <p><b style="color:var(--hi)">Templates:</b> Custom Key-Value, Banner, Banner Carousel (up to 7 rotations), Banner with Text, Banner Carousel with Text. Add-on unlocks Custom HTML and Custom JSON templates plus the Visual Editor.</p></div>
+</div>
+<h3>Who renders what</h3>
+<div class="tblscroll"><table>
+<tr><th>Rendering handled by CleverTap</th><th>Rendering handled by your code</th></tr>
+<tr><td>Web Banners, Banner Carousels, Custom HTML, Visual Editor element changes. CleverTap injects into your target selector.</td><td>All App templates (the app builds the view from the Display Unit), Web Key-Value and JSON campaigns (a browser event delivers the payload, your site renders it).</td></tr>
+</table></div>
+<p>Priority: on web, priority is keyed to the CSS selector; when several campaigns target the same element only the highest priority runs, and a campaign runs entirely or not at all. On app, campaign priority runs 1 to 10 (10 wins); newer SDKs support multiple ND campaigns from a single event for multi-slot layouts. The same event can also feed different campaigns through different event property filters: one Charged event, filtered on Category = Fashion vs Category = Grocery, can light two different slots with two different messages.</p>
+<div class="note"><b>Fallbacks are not optional.</b> Always configure default content in the slot. If CleverTap's response is delayed or empty, the page or app should show its own default rather than a hole. On web, personalization uses user properties from the current session only; properties written via the server API are not available client-side.</div>
+</div>
+</details>
+
+<!-- ===== KV EXECUTION ===== -->
+<details class="sect">
+<summary>Key-Value Pair execution (Web + App)<span><span class="tag">Dev pattern</span><span class="chev">›</span></span></summary>
+<div class="sectbody">
+<p>Key-Value is a simple handshake: the marketer sends the ingredients (a name, an offer, a price), and the app's own code does the cooking, drawing the card in the app's own style. Use it when the message must look like it was born inside the product. The payoff: the marketing team can change what the card says any day of the week, without asking engineering to touch the app.</p>
+<h3>Web: the CustomEvent pattern</h3>
+<p>CleverTap fires a browser event named <code>CT_web_native_display</code>. The first key in the payload is always <code>topic</code> (the marketer sets its value), which routes content to the right slot.</p>
+<pre><span class="c">// 1. Listen once, route by topic</span>
+document.<span class="f">addEventListener</span>(<span class="s">"CT_web_native_display"</span>, <span class="k">function</span>(e){
+  <span class="k">const</span> data = e.detail;            <span class="c">// { kv:{ topic, ... }, msgId, wzrk_pivot }</span>
+  <span class="k">if</span> (data.kv.topic === <span class="s">"cart_nudge"</span>) {
+    <span class="f">renderCartNudge</span>(data.kv);        <span class="c">// your render into the slot</span>
+    clevertap.<span class="f">renderNotificationViewed</span>(data);   <span class="c">// 2. raise Viewed</span>
+  }
+});
+<span class="c">// 3. On click of the rendered element:</span>
+<span class="c">// clevertap.renderNotificationClicked(data);</span></pre>
+<p>Related events for other web templates: <code>CT_web_native_display_builder</code> (Visual Editor JSON campaigns) and <code>CT_web_native_display_json</code> (JSON template). Same-named events are grouped; only the highest-priority campaign fires.</p>
+<h3>App: the Display Unit pattern</h3>
+<pre><span class="c">// Android: receive units, read the KV map, render, raise events</span>
+<span class="k">class</span> MainActivity : DisplayUnitListener {
+  <span class="k">override fun</span> <span class="f">onDisplayUnitsLoaded</span>(units: ArrayList&lt;CleverTapDisplayUnit&gt;) {
+    <span class="k">val</span> kv = units[0].customExtras       <span class="c">// dashboard key-values</span>
+    <span class="f">renderHomeCard</span>(kv)
+    ct.<span class="f">pushDisplayUnitViewedEventForID</span>(units[0].unitID)
+  }
+}
+<span class="c">// On tap: ct.pushDisplayUnitClickedEventForID(unitID)</span>
+<span class="c">// iOS mirror: CleverTapDisplayUnitDelegate + getAllDisplayUnits()</span></pre>
+<div class="note"><b>Stats live or die on these calls.</b> Viewed and Clicked on the dashboard come only from your code raising them. Miss the calls and the campaign reports zero even while rendering perfectly. In list views (RecyclerView and friends), Viewed fires each time the unit scrolls into the viewport, so expect multiple Viewed per session.</div>
+</div>
+</details>
+
+<!-- ===== DEV SETUP ===== -->
+<details class="sect">
+<summary>Developer setup (App ND · Web ND · Visual Editor)<span><span class="tag">Handoff-ready</span><span class="chev">›</span></span></summary>
+<div class="sectbody">
+<h3>App Native Display setup</h3>
+<p>Three steps. First, register a listener so the app receives units when a campaign triggers: on Android set a <code>DisplayUnitListener</code> and read units in <code>onDisplayUnitsLoaded</code>, or fetch on demand with <code>getAllDisplayUnits()</code> / <code>getDisplayUnitForID(unitID)</code>; on iOS implement <code>CleverTapDisplayUnitDelegate</code> and call <code>setDisplayUnitDelegate</code>. Second, render your own view from the unit's fields (title, message, media, icon) and, for Custom Key-Value, from <code>customExtras</code>. Third, tell CleverTap what happened: raise Viewed when the unit enters the viewport and Clicked on tap, both by unit ID. React Native, Flutter, and Unity have mirror APIs.</p>
+<h3>Web Native Display setup</h3>
+<p>Integrate the current Web SDK (account id, region, token) and turn on personalization with <code>clevertap.enablePersonalization = true</code>. For Banner and Carousel templates, nominate a Div ID at campaign time; CleverTap replaces that container's content. If your container has a fixed CSS height, set the same Div height in the dashboard; with no height set, the banner takes 100% width with auto height by aspect ratio. Plan for the session rule: client-side personalization sees only properties set in the current session.</p>
+<h3>Visual Editor setup (Advanced Web Personalization add-on)</h3>
+<p>The Visual Editor is part of the paid Advanced Web Personalization add-on and is in Private Beta, so it needs enabling on the account by your CleverTap contact. Prerequisites: Web SDK 1.13.1+, a Content Security Policy whose <code>frame-ancestors</code> includes <code>self</code>, and headers <code>Cross-Origin-Opener-Policy: same-origin-allow-popups</code> plus <code>Cross-Origin-Embedder-Policy: unsafe-none</code>. Build flow: open the Web ND builder, choose Advanced Personalization, enter the page URL, and the live page loads in the editor. Point-and-click an element to restyle it, or switch to Edit HTML / Add JSON; use liquid <code>{{ }}</code> for profile and event personalization; switch on element-level Click Tracking where you want click analytics. Preview in a new tab, Save, then publish. Work on staging first, verify, then publish to production.</p>
+</div>
+</details>
+
+<!-- ===== VISUAL EDITOR ADD-ON ===== -->
+<details class="sect">
+<summary>Visual Editor add-on consideration + Custom Templates breakdown<span><span class="tag">Add-on</span><span class="chev">›</span></span></summary>
+<div class="sectbody">
+<p>Plain version: standard Web Native Display lets you fill the shelves you agreed on in advance. The Visual Editor add-on lets you redecorate the whole shop window. It is for changing how the website <b style="color:var(--hi)">looks</b>: text, images, buttons, colors, any element on the page, without waiting for the web team's next release.</p>
+<p><b style="color:var(--hi)">Why this matters for money:</b> every week a better headline or button sits in a backlog, it earns nothing. The Visual Editor turns "we'll ship it next sprint" into "it is live this afternoon", so winning ideas start paying sooner and losing ideas get switched off faster.</p>
+<div class="grid2">
+  <div class="mini"><h4>Visual Editor <span class="pill add">Add-on · Private Beta</span></h4>
+    <p>Loads the live page into an editor. Point, click, and change text, images, CTAs, colors, spacing, or any HTML element, then target by segment and publish. Includes a Basic (Form) mode for quick swaps, liquid personalization, element-level click tracking, device toggle, changelog, and multi-page support.</p>
+    <p style="color:var(--dim)">Best for: hero and CTA iteration, seasonal reskins, segment-specific page variants, testing copy without a web release cycle.</p></div>
+  <div class="mini"><h4>Custom Templates <span class="pill add">Add-on</span></h4>
+    <p><b style="color:var(--hi)">Custom HTML Template:</b> write HTML/CSS/JS in a built-in editor for layout changes, embedded recommendations, reordering, and personalized offer blocks. CleverTap injects it into the target selector.</p>
+    <p><b style="color:var(--hi)">Custom JSON Template:</b> sends structured JSON to the site; your front end renders it. The right choice when the design system must stay fully in your codebase but the content should be campaign-controlled.</p></div>
+</div>
+<p style="margin-top:12px">Commercial framing that tends to land: the subscription already includes the shelf (Banner, Carousel, Key-Value). The add-on buys the ability to rearrange the store per shopper, without waiting for the next release train.</p>
+</div>
+</details>
+<details class="sect" id="ve-showcase">
+<summary>Visual Editor showcase: what it can actually do (before → after)<span><span class="tag">Add-on · See it</span><span class="chev">›</span></span></summary>
+<div class="sectbody">
+<style>
+.vegrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(340px,1fr));gap:14px;margin-top:10px}
+.vecard{background:var(--raised);border:1px solid var(--line);border-radius:12px;padding:12px}
+.vecard h4{font-family:var(--disp);font-size:13px;color:var(--hi);margin-bottom:2px}
+.vecard .vc{font-family:var(--mono);font-size:9px;color:var(--purple);letter-spacing:.08em;text-transform:uppercase;margin-bottom:8px;display:block}
+.vepair{display:flex;gap:8px;justify-content:center;align-items:flex-start}
+.veb{width:158px;background:#05090A;border-radius:8px;border:1px solid var(--line);overflow:hidden;flex-shrink:0}
+.veb .vbar{height:14px;background:#101A1C;display:flex;align-items:center;gap:3px;padding:0 6px}
+.veb .vbar i{width:4px;height:4px;border-radius:50%;background:#2a3d42;display:block}
+.veb .vbar em{flex:1;height:6px;background:#1a2a2e;border-radius:4px;margin-left:3px}
+.vpg{background:#F6F8F9;padding:6px;display:flex;flex-direction:column;gap:4px;min-height:96px}
+.vsk{background:#E3E9ED;border-radius:3px}
+.vrow{display:flex;gap:4px}
+.vhero{border-radius:5px;padding:5px 6px;display:flex;flex-direction:column;gap:2px;justify-content:center}
+.vh{font-family:var(--disp);font-weight:600;font-size:6.6px;color:#14181B;line-height:1.25}
+.vh .lq2{font-family:var(--mono);font-size:5.8px;color:#7A2FB8;background:rgba(199,125,255,.25);border-radius:2px;padding:0 2px}
+.vcta{align-self:flex-start;font-family:var(--disp);font-weight:600;font-size:5.8px;color:#fff;border-radius:6px;padding:1.5px 6px}
+.vsel{outline:1.5px dashed #7A2FB8;outline-offset:1px;position:relative}
+.vtag2{position:absolute;top:-6px;right:-2px;font-family:var(--mono);font-size:5.4px;color:#fff;background:#7A2FB8;border-radius:4px;padding:1px 4px;white-space:nowrap;z-index:2}
+.velab{font-family:var(--mono);font-size:8px;letter-spacing:.1em;text-transform:uppercase;color:var(--dim);text-align:center;margin-top:4px}
+.velab.aft{color:var(--purple)}
+.vecard p{font-size:11.5px;color:var(--mid);margin-top:8px;line-height:1.45}
+.velim{margin-top:18px}
+.velim li{font-size:12.5px;color:var(--mid);margin:6px 0 6px 16px;line-height:1.5}
+.velim li b{color:var(--hi)}
+</style>
+<p>The Visual Editor is easiest to trust once you have seen it move real pixels. Each pair below is the same page, before and after one editor action, with the edited element outlined the way the editor highlights it. All pages and brands are fictional.</p>
+<div class="vegrid">
+
+<div class="vecard"><h4>Edit text in place</h4><span class="vc">Click element → type</span>
+<div class="vepair">
+<div><div class="veb"><div class="vbar"><i></i><i></i><i></i><em></em></div><div class="vpg"><div class="vrow"><div class="vsk" style="width:34px;height:7px"></div><div class="vsk" style="width:20px;height:7px;margin-left:auto"></div></div><div class="vhero" style="background:#E9EEF1"><span class="vh">Welcome to our store</span><span class="vcta" style="background:#5B6B73">Shop now</span></div><div class="vrow"><div class="vsk" style="width:32%;height:24px"></div><div class="vsk" style="width:32%;height:24px"></div><div class="vsk" style="width:32%;height:24px"></div></div></div></div><div class="velab">Before</div></div>
+<div><div class="veb"><div class="vbar"><i></i><i></i><i></i><em></em></div><div class="vpg"><div class="vrow"><div class="vsk" style="width:34px;height:7px"></div><div class="vsk" style="width:20px;height:7px;margin-left:auto"></div></div><div class="vhero vsel" style="background:#E9EEF1"><span class="vtag2">VE · text</span><span class="vh">Payday sale: 20% off everything</span><span class="vcta" style="background:#5B6B73">Shop now</span></div><div class="vrow"><div class="vsk" style="width:32%;height:24px"></div><div class="vsk" style="width:32%;height:24px"></div><div class="vsk" style="width:32%;height:24px"></div></div></div></div><div class="velab aft">After · published to segment</div></div>
+</div><p>Headline changed for the payday-week segment. No web release, live after Publish.</p></div>
+
+<div class="vecard"><h4>Restyle the CTA</h4><span class="vc">Edit element → color, size, copy</span>
+<div class="vepair">
+<div><div class="veb"><div class="vbar"><i></i><i></i><i></i><em></em></div><div class="vpg"><div class="vhero" style="background:#E9EEF1"><span class="vh">Your plan, your pace</span><span class="vcta" style="background:#9AA7AE">Learn more</span></div><div class="vsk" style="width:70%;height:6px"></div><div class="vsk" style="width:55%;height:6px"></div></div></div><div class="velab">Before</div></div>
+<div><div class="veb"><div class="vbar"><i></i><i></i><i></i><em></em></div><div class="vpg"><div class="vhero" style="background:#E9EEF1"><span class="vh">Your plan, your pace</span><span class="vcta vsel" style="background:#B02D5C"><span class="vtag2">VE · style + track</span>Start free trial</span></div><div class="vsk" style="width:70%;height:6px"></div><div class="vsk" style="width:55%;height:6px"></div></div></div><div class="velab aft">After · click-tracked</div></div>
+</div><p>Button copy, color, and element-level Click Tracking switched on: clicks land on the Notification Clicked event with your label (wzrk_c2a).</p></div>
+
+<div class="vecard"><h4>Swap the hero image</h4><span class="vc">Edit element → image URL</span>
+<div class="vepair">
+<div><div class="veb"><div class="vbar"><i></i><i></i><i></i><em></em></div><div class="vpg"><div class="vhero" style="background:linear-gradient(120deg,#9AA7AE,#C7CED2);min-height:34px"><span class="vh" style="color:#fff">Generic banner</span></div><div class="vrow"><div class="vsk" style="width:48%;height:20px"></div><div class="vsk" style="width:48%;height:20px"></div></div></div></div><div class="velab">Before</div></div>
+<div><div class="veb"><div class="vbar"><i></i><i></i><i></i><em></em></div><div class="vpg"><div class="vhero vsel" style="background:linear-gradient(120deg,#B02D5C,#F26522);min-height:34px"><span class="vtag2">VE · image</span><span class="vh" style="color:#fff">Raya campaign visual</span></div><div class="vrow"><div class="vsk" style="width:48%;height:20px"></div><div class="vsk" style="width:48%;height:20px"></div></div></div></div><div class="velab aft">After · seasonal reskin</div></div>
+</div><p>Seasonal hero for one market's segment while every other visitor keeps the default.</p></div>
+
+<div class="vecard"><h4>Personalize with liquid</h4><span class="vc">{{ }} in any text field</span>
+<div class="vepair">
+<div><div class="veb"><div class="vbar"><i></i><i></i><i></i><em></em></div><div class="vpg"><div class="vhero" style="background:#E9EEF1"><span class="vh">Members save more</span></div><div class="vsk" style="width:80%;height:6px"></div><div class="vsk" style="width:60%;height:6px"></div></div></div><div class="velab">Before</div></div>
+<div><div class="veb"><div class="vbar"><i></i><i></i><i></i><em></em></div><div class="vpg"><div class="vhero vsel" style="background:#E9EEF1"><span class="vtag2">VE · liquid</span><span class="vh">Welcome back <span class="lq2">{{Name}}</span>, Gold pricing is on</span></div><div class="vsk" style="width:80%;height:6px"></div><div class="vsk" style="width:60%;height:6px"></div></div></div><div class="velab aft">After · per-visitor</div></div>
+</div><p>Profile and event properties render per visitor. Session rule applies: client-side sees current-session properties only.</p></div>
+
+<div class="vecard"><h4>Hide an element</h4><span class="vc">Hide on: desktop / mobile / all</span>
+<div class="vepair">
+<div><div class="veb"><div class="vbar"><i></i><i></i><i></i><em></em></div><div class="vpg"><div class="vhero" style="background:#FBE9CE"><span class="vh">Old promo strip (expired)</span></div><div class="vrow"><div class="vsk" style="width:32%;height:26px"></div><div class="vsk" style="width:32%;height:26px"></div><div class="vsk" style="width:32%;height:26px"></div></div><div class="vsk" style="width:70%;height:6px"></div></div></div><div class="velab">Before</div></div>
+<div><div class="veb"><div class="vbar"><i></i><i></i><i></i><em></em></div><div class="vpg"><div class="vsel" style="border-radius:5px;min-height:10px;background:repeating-linear-gradient(45deg,#F3E8FA,#F3E8FA 4px,#EDE0F7 4px,#EDE0F7 8px)"><span class="vtag2">VE · hidden</span></div><div class="vrow"><div class="vsk" style="width:32%;height:26px"></div><div class="vsk" style="width:32%;height:26px"></div><div class="vsk" style="width:32%;height:26px"></div></div><div class="vsk" style="width:70%;height:6px"></div></div></div><div class="velab aft">After · gone without a deploy</div></div>
+</div><p>The expired strip is hidden for everyone (or only mobile) the same afternoon it becomes wrong, instead of waiting in a web backlog.</p></div>
+
+<div class="vecard"><h4>Insert a new element</h4><span class="vc">Insert element / Edit HTML</span>
+<div class="vepair">
+<div><div class="veb"><div class="vbar"><i></i><i></i><i></i><em></em></div><div class="vpg"><div class="vrow"><div class="vsk" style="width:34px;height:7px"></div><div class="vsk" style="width:20px;height:7px;margin-left:auto"></div></div><div class="vrow"><div class="vsk" style="width:48%;height:26px"></div><div class="vsk" style="width:48%;height:26px"></div></div><div class="vsk" style="width:75%;height:6px"></div></div></div><div class="velab">Before</div></div>
+<div><div class="veb"><div class="vbar"><i></i><i></i><i></i><em></em></div><div class="vpg"><div class="vhero vsel" style="background:#14181B;min-height:12px;padding:3px 6px"><span class="vtag2">VE · inserted</span><span class="vh" style="color:#fff">Free shipping this weekend only</span></div><div class="vrow"><div class="vsk" style="width:34px;height:7px"></div><div class="vsk" style="width:20px;height:7px;margin-left:auto"></div></div><div class="vrow"><div class="vsk" style="width:48%;height:26px"></div><div class="vsk" style="width:48%;height:26px"></div></div></div></div><div class="velab aft">After · announcement bar added</div></div>
+</div><p>A brand-new announcement bar injected above the nav. Edit HTML goes further: any custom block, including recommendation-filled markup via the Custom HTML template.</p></div>
+
+<div class="vecard"><h4>Segment variants of one page</h4><span class="vc">Variant per audience</span>
+<div class="vepair">
+<div><div class="veb"><div class="vbar"><i></i><i></i><i></i><em></em></div><div class="vpg"><div class="vhero" style="background:#E7F2FD"><span class="vh">New here? Get 15% off your first order</span><span class="vcta" style="background:#1B7FDB">Claim</span></div><div class="vrow"><div class="vsk" style="width:48%;height:20px"></div><div class="vsk" style="width:48%;height:20px"></div></div></div></div><div class="velab">Variant · new visitors</div></div>
+<div><div class="veb"><div class="vbar"><i></i><i></i><i></i><em></em></div><div class="vpg"><div class="vhero vsel" style="background:#FBF1DC"><span class="vtag2">VE · segment</span><span class="vh">Gold member pricing applied at checkout</span><span class="vcta" style="background:#8A6D0B">Shop</span></div><div class="vrow"><div class="vsk" style="width:48%;height:20px"></div><div class="vsk" style="width:48%;height:20px"></div></div></div></div><div class="velab aft">Variant · Gold members</div></div>
+</div><p>Same URL, different page per segment. Priority is per selector, so the highest-priority campaign wins an element.</p></div>
+
+<div class="vecard"><h4>Push JSON to your front end</h4><span class="vc">Custom JSON template</span>
+<div class="vepair">
+<div><div class="veb"><div class="vbar"><i></i><i></i><i></i><em></em></div><div class="vpg"><div class="vsk" style="width:60%;height:7px"></div><div class="vrow"><div class="vsk" style="width:32%;height:26px"></div><div class="vsk" style="width:32%;height:26px"></div><div class="vsk" style="width:32%;height:26px"></div></div></div></div><div class="velab">Before · site default order</div></div>
+<div><div class="veb"><div class="vbar"><i></i><i></i><i></i><em></em></div><div class="vpg"><div class="vsel" style="border-radius:5px;padding:3px"><span class="vtag2">VE · JSON event</span><div class="vrow"><div class="vsk" style="width:32%;height:26px;background:#D9C6F0"></div><div class="vsk" style="width:32%;height:26px"></div><div class="vsk" style="width:32%;height:26px"></div></div></div><div class="vsk" style="width:60%;height:7px"></div></div></div><div class="velab aft">After · your code re-renders</div></div>
+</div><p>For teams whose design system must stay fully in their own codebase: CleverTap sends the JSON (CT_web_native_display_builder event), your front end renders. Campaign-controlled content, product-controlled pixels.</p></div>
+
+</div>
+
+<h3 style="margin-top:22px">The honest limitations list</h3>
+<ul class="velim">
+<li><b>Website only.</b> It does not touch iOS or Android app screens. App-side changes are Native Display (content) or Product Experiences (behavior).</li>
+<li><b>It edits pages that exist.</b> Not a landing-page builder: you give it a URL, it redecorates that page. New pages come from your web team, then VE personalizes them.</li>
+<li><b>Looks, not logic.</b> It changes what the page shows, not what the server computes. Real price logic, checkout rules, and app behavior belong to Product Experiences or your backend.</li>
+<li><b>Setup prerequisites.</b> Web SDK 1.13.1+, CSP frame-ancestors including self, and COOP/COEP headers. Budget a small web-team ticket for this, once.</li>
+<li><b>Private Beta.</b> Enabled per account by CleverTap, tested first on Shopify. Confirm support for the client's stack before promising a date.</li>
+<li><b>Session-scope personalization.</b> Client-side liquid sees properties set in the current session; server-API-written properties are not available in the browser.</li>
+<li><b>Forms: visible half only.</b> You can inject a form's markup, but submissions route to your site's endpoint; CleverTap does not process them.</li>
+<li><b>Publish gate and priority.</b> Nothing reaches live users until Publish, and when campaigns collide on one selector, only the highest priority runs.</li>
+<li><b>Dynamic SPAs need care.</b> Heavily client-rendered pages need stable selectors for edits to stick; verify behavior on the client's framework during the beta.</li>
+</ul>
+<div class="note"><b>The extent, in one line:</b> if it is visible on the website and has a stable place in the page, the Visual Editor can probably change it per segment without a release. If it is a new page, an app screen, or server logic, it is the wrong tool, and saying so early is what keeps the add-on pitch credible.</div>
+</div>
+</details>
+
+<!-- ===== COMMERCIAL TABLE ===== -->
+<details class="sect">
+<summary>What's included vs what's an add-on<span><span class="tag">Commercial map</span><span class="chev">›</span></span></summary>
+<div class="sectbody">
+<div class="tblscroll"><table>
+<tr><th>Capability</th><th>Essentials</th><th>Advanced</th><th>Cutting Edge</th><th>Notes</th></tr>
+<tr><td><b>App Native Display</b></td><td class="ad">Add-on</td><td class="ok">Included</td><td class="ok">Included</td><td>Separate line from Web ND</td></tr>
+<tr><td><b>Web Native Display</b></td><td class="no">Not offered</td><td class="ok">Included</td><td class="ok">Included</td><td>Needs current Web SDK</td></tr>
+<tr><td><b>Visual Editor (Adv. Web Personalization)</b></td><td class="no">Not offered</td><td class="ad">Add-on</td><td class="ad">Add-on</td><td>Private Beta; enabled by CSM</td></tr>
+<tr><td><b>Custom Templates (HTML / JSON)</b></td><td class="no">Not offered</td><td class="ad">Add-on</td><td class="ad">Add-on</td><td>Part of the same add-on</td></tr>
+<tr><td><b>Product Experiences</b> (Remote Config, Feature Flags, Product A/B)</td><td class="no">Not offered</td><td class="ad">Add-on</td><td class="ad">Add-on</td><td>One add-on, three tools</td></tr>
+<tr><td><b>Recommendations + Catalog 2.0</b></td><td class="no">Not offered</td><td class="no">Not offered</td><td class="ok">Included</td><td>Catalog 2.0 recommendations ship with the Cutting Edge plan only</td></tr>
+</table></div>
+<div class="note"><b>Before quoting a client:</b> add-on prices are not public and packaging moves. Confirm the current line items with your AE and PM. Recommendations + Catalog 2.0 sit on Cutting Edge only; remaining Verify rows are flagged deliberately, not filled with guesses.</div>
+</div>
+</details>
+
+<!-- ===== VE vs PE ===== -->
+<details class="sect">
+<summary>Visual Editor vs Product Experiences: which tool, which job<span><span class="tag">Decision table</span><span class="chev">›</span></span></summary>
+<div class="sectbody">
+<p>The simplest way to hold the two add-ons in your head: <b style="color:var(--hi)">Visual Editor changes how it looks. Product Experiences changes how it works.</b> One repaints the website (colors, words, images, buttons). The other rewires the app (features on or off, settings, whole flows). Both go live from the dashboard, and neither needs the app submitted to the App Store or Play Store for review, so a change that used to wait weeks for a release can ship today.</p>
+<div class="tblscroll"><table>
+<tr><th>Question to ask</th><th>Native Display <span class="ok">(included)</span></th><th>Visual Editor <span class="ad">(add-on)</span></th><th>Product Experiences <span class="ad">(add-on)</span></th></tr>
+<tr><td><b>In one word</b></td><td>Looks: fill the slots</td><td>Looks: repaint the website</td><td>Works: rewire the app</td></tr>
+<tr><td><b>App-store review?</b></td><td>No</td><td>No: publishes from the dashboard</td><td>No: no resubmission, no review queue</td></tr>
+<tr><td><b>Surface</b></td><td>Content slots in app + web</td><td>Website DOM: any visible element</td><td>Native app behavior and config (+ web variables)</td></tr>
+<tr><td><b>Who ships the change</b></td><td>Marketer (dev renders KV once)</td><td>Marketer, point-and-click after one-time setup</td><td>Dev wires variables once; marketer/PM controls values</td></tr>
+<tr><td><b>Change model</b></td><td>Cards, banners, carousels, KV payloads</td><td>Edit live page elements, or push HTML/JSON</td><td>Remote Config + Feature Flags + Product A/B Tests</td></tr>
+<tr><td><b>Best for</b></td><td>Home-feed cards, checkout strips, recommendation rails</td><td>Hero/CTA iteration, seasonal reskins, segment page variants</td><td>Feature rollouts, defaults, paywall logic, native UI experiments</td></tr>
+<tr><td><b>Watch-outs</b></td><td>Fallback content is mandatory; KV needs one-time dev render</td><td>Web only; Private Beta; CSP/COOP/COEP + SDK 1.13.1+</td><td>Upfront variable wiring; changes limited to what code reads</td></tr>
+<tr><td><b>Commercial</b></td><td class="ok">Included on Advanced / Cutting Edge</td><td class="ad">Paid add-on</td><td class="ad">Paid add-on</td></tr></table></div>
+<p>Rule of thumb for the client call: could a customer notice the change just by looking at the page? Visual Editor. Is the change something the app secretly decides (a switch, a number, which version of a screen you get)? Product Experiences. And Native Display, already in the plan, is where the story starts: prove the busy slots earn money first, then bring in the add-on that removes the next bottleneck.</p>
+<p style="color:var(--dim);font-family:var(--mono);font-size:11px">Companion gallery: <a href="https://shijunneo-bot.github.io/ct-product-experiences-gallery/" style="color:var(--purple)">Product Experiences Field Guide</a> (75 use cases, each with a "why not Native Display" line).</p>
+</div>
+</details>
+
+<!-- ===== GALLERY ===== -->
+
+<details class="sect" id="devdocs">
+<summary>Developer docs: the official pages<span><span class="tag">Source</span><span class="chev">›</span></span></summary>
+<div class="sectbody">
+<style>
+.dgrid{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:8px}
+@media(max-width:720px){.dgrid{grid-template-columns:1fr}}
+.dgroup{background:var(--raised);border:1px solid var(--line);border-radius:10px;padding:12px 14px}
+.dgroup h4{font-family:var(--disp);font-size:13px;color:var(--hi);margin-bottom:2px}
+.dgroup .dsub{font-family:var(--mono);font-size:9.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--dim);margin-bottom:8px}
+.dgroup a{display:block;font-size:12.5px;color:var(--mid);text-decoration:none;padding:5px 0;border-bottom:1px solid var(--line);transition:.12s}
+.dgroup a:last-child{border-bottom:0}
+.dgroup a:hover{color:var(--nd);padding-left:4px}
+.dgroup a::before{content:"↗ ";font-family:var(--mono);font-size:10px;color:var(--dim)}
+.dnote{font-size:12px;color:var(--dim);margin-top:12px;line-height:1.5}
+</style>
+<p class="mp" style="margin-bottom:10px">Everything in this gallery is a client-facing illustration. When it is time to build, these are the official CleverTap pages, straight from docs.clevertap.com. Grouped by app (mobile) and web, in setup order.</p>
+<div class="dgrid">
+<div class="dgroup">
+<h4>App Native Display</h4><span class="dsub">iOS &amp; Android</span>
+<a href="https://docs.clevertap.com/docs/native-display" target="_blank" rel="noopener">Native Display overview</a>
+<a href="https://docs.clevertap.com/docs/setup-native-display" target="_blank" rel="noopener">Set up Native Display (SDK)</a>
+<a href="https://docs.clevertap.com/docs/create-message-native-display" target="_blank" rel="noopener">Create a message</a>
+<a href="https://docs.clevertap.com/docs/personalize-message-native-display" target="_blank" rel="noopener">Personalize a message</a>
+<a href="https://docs.clevertap.com/docs/native-display-campaign-stats" target="_blank" rel="noopener">Campaign stats</a>
+</div>
+<div class="dgroup">
+<h4>Web Native Display</h4><span class="dsub">Web SDK &amp; Visual Editor</span>
+<a href="https://docs.clevertap.com/docs/web-native-display" target="_blank" rel="noopener">Web Native Display overview</a>
+<a href="https://docs.clevertap.com/docs/web-personalization-setup" target="_blank" rel="noopener">Web personalization setup</a>
+<a href="https://docs.clevertap.com/docs/web-native-display-create-message" target="_blank" rel="noopener">Create a message</a>
+<a href="https://docs.clevertap.com/docs/web-native-display-editor" target="_blank" rel="noopener">Visual Editor</a>
+<a href="https://docs.clevertap.com/docs/advanced-personalization" target="_blank" rel="noopener">Advanced personalization</a>
+<a href="https://docs.clevertap.com/docs/web-native-display-personalize" target="_blank" rel="noopener">Personalize a message</a>
+<a href="https://docs.clevertap.com/docs/web-native-display-stats" target="_blank" rel="noopener">Web stats</a>
+</div>
+</div>
+<p class="dnote">Check SDK versions and plan packaging on these pages before you promise a date. The docs are the source of truth; this gallery is the conversation starter.</p>
+</div>
+</details>
+
+<details class="sect">
+<summary>FAQ: the 20 questions clients actually ask<span><span class="tag">Call-ready</span><span class="chev">›</span></span></summary>
+<div class="sectbody">
+<style>.fq{border-bottom:1px solid var(--line);padding:10px 0}.fq summary{cursor:pointer;list-style:none;font-family:var(--disp);font-weight:600;font-size:13.5px;color:var(--hi)}.fq summary::-webkit-details-marker{display:none}.fq summary::before{content:"Q · ";color:var(--nd);font-family:var(--mono);font-size:11px}.fq p{margin-top:6px;font-size:13px}</style>
+
+<details class="fq"><summary>How do I choose where Native Display appears in the app?</summary><p>Placement is decided in the app's code, once. Your developers pick the slots (home feed position 2, checkout strip, account banner) and render Display Units there. After that, marketers fill those slots from the dashboard without touching code. Best practice: agree a named slot list with the product team (like agreeing shelf locations in a store), and pass the slot name in the campaign's key-value pairs so the app knows which shelf each campaign belongs on.</p></details>
+<details class="fq"><summary>How do I choose where it appears on the website?</summary><p>Two ways. For Banner and Carousel templates, you enter the Div ID of the target container when building the campaign, and CleverTap renders into that box. For Key-Value campaigns, the first key is always <code>topic</code>: your site listens for the event, reads the topic, and routes the content to the right spot. With the Visual Editor add-on, you skip both and simply click the element on a live view of the page.</p></details>
+<details class="fq"><summary>What is the difference between a default template and Custom Key-Value?</summary><p>A default template (Simple Message, Carousel, Banner) is a ready-made frame: CleverTap defines the structure, you fill in text and images, and it renders with no design work. Custom Key-Value sends only the raw ingredients (names, prices, offer text) and your own code draws the card, so it can look exactly like the product. Templates are faster to launch; Key-Value gives total design freedom in exchange for one-time developer work.</p></details>
+<details class="fq"><summary>How do I actually use custom key-value pairs, step by step?</summary><p>Four steps. One: marketer adds key-value pairs in the campaign (on web, the first key is <code>topic</code>, which acts like an address label). Two: the developer adds a listener, on web for the <code>CT_web_native_display</code> event, on app via the Display Unit callback. Three: the code reads the values and draws the element. Four: the code reports back by raising Notification Viewed and Notification Clicked. Steps two to four are built once; after that, marketers change the content any day without engineering.</p></details>
+<details class="fq"><summary>Do I need developers for every campaign?</summary><p>No. Developers are needed once per surface: to set up the SDK, choose app slots, and (for Key-Value) build the render-and-report code. After that one-time wiring, template campaigns and content changes are fully marketer-run. The recurring engineering cost is close to zero, which is a big part of the commercial case.</p></details>
+<details class="fq"><summary>Is Native Display included in my plan or an extra cost?</summary><p>Web and App Native Display are included on Advanced and Cutting Edge plans. On Essentials, App Native Display is an add-on and Web Native Display is not offered. So for most enterprise accounts this is capability already paid for and often under-used. (Confirm your exact contract line items with your CleverTap team.)</p></details>
+<details class="fq"><summary>How is this different from in-app messages and pop-ups?</summary><p>Pop-ups interrupt: they appear over the screen and demand a decision. Native Display sits inside the screen, as part of the feed or page, so nobody dismisses it in annoyance. Practical effect: you can run it always-on in high-traffic spots without hurting the experience, which pop-up fatigue does not allow.</p></details>
+<details class="fq"><summary>Can I personalize with the user's name, points, or prices?</summary><p>Yes. Any field marked with the @ symbol accepts personalization: type @ or {{ }} and pick a profile or event property, with a default fallback value. That covers names, balances, dates, amounts, even the image URL and the deep link. One web caveat: client-side personalization only sees properties set in the current session, not values written through the server API.</p></details>
+<details class="fq"><summary>Can it show product recommendations automatically?</summary><p>Yes, with a catalog. Upload your product catalog, connect it to an event, and the recommendation engine can fill a carousel per user. Plan for the warm-up: relationships form from your data over roughly the first 24 hours after upload, and published recommendations can take up to 24 hours to go live. Not a same-morning launch, but fully automatic after that. One plan note: Recommendations with Catalog 2.0 sit on the Cutting Edge plan only, so check the client’s tier before promising the carousel.</p></details>
+<details class="fq"><summary>Why are my campaign stats showing zero even though the unit renders?</summary><p>Almost always because the code is not raising the events. Viewed and Clicked on the dashboard come only from the app or site calling the report functions. If those calls are missing, the campaign works perfectly and reports nothing. It is the first thing to check, before anything else.</p></details>
+<details class="fq"><summary>Can I A/B test Native Display campaigns?</summary><p>Yes: up to 3 message variants in an A/B test, plus Split Delivery, plus variation by user property (up to 50 variants), plus control groups to measure true lift. So you can prove the revenue effect of a slot, not just report clicks.</p></details>
+<details class="fq"><summary>What happens if two campaigns target the same slot?</summary><p>Priority decides. On web, priority is keyed to the target selector and only the highest-priority campaign runs (a campaign runs entirely or not at all). On app, campaign priority runs 1 to 10 and 10 wins; newer SDKs also allow several campaigns from one event to fill several slots at once. And one underused trick: the same event can drive different campaigns via different event property filters, so Charged with Category = Fashion and Charged with Category = Grocery can each trigger their own unit.</p></details>
+<details class="fq"><summary>What media can I use?</summary><p>Images (jpg, jpeg, png, gif), audio (mp3) and video (mp4) on app templates; note that png converts to jpeg using your chosen background color. App carousels hold up to 5 slides; web banner carousels rotate up to 7 banners.</p></details>
+<details class="fq"><summary>What if CleverTap is slow or sends nothing? Will there be a hole in my page?</summary><p>Only if you skip the fallback, so never skip the fallback. Always configure default content in the slot: the page or app shows its own default until CleverTap's content arrives, and keeps showing it if nothing arrives. An empty slot is worse than no campaign.</p></details>
+<details class="fq"><summary>Which SDK versions do we need?</summary><p>App: iOS 3.7.2+ and Android 3.6.2+ for Native Display basics (Linked Content in units needs much newer builds). Web: the current Web SDK, 1.3.0+ for the feature and 1.13.1+ if you want the Visual Editor. Worth checking early, because an SDK upgrade is the one item with a real lead time.</p></details>
+<details class="fq"><summary>Can I target by segment and live behavior?</summary><p>Yes, the full CleverTap targeting toolkit applies: saved segments, user properties, and live behavior for triggered campaigns, plus scheduling and delivery preferences. Native Display is a channel like any other; only the rendering surface is different.</p></details>
+<details class="fq"><summary>What does the Visual Editor add that I do not already have?</summary><p>Standard Web Native Display fills slots you agreed in advance. The Visual Editor (part of the paid Advanced Web Personalization add-on) lets a marketer click any element on a live view of the page and change it: text, images, buttons, colors, spacing. It removes the two remaining bottlenecks: pre-agreed slots and the web release cycle.</p></details>
+<details class="fq"><summary>Can the Visual Editor create a custom landing page from scratch?</summary><p>Honest answer: no. The Visual Editor edits pages that already exist; you give it a URL and it loads that live page for editing. It is a redecorating tool, not a page builder. If you need a genuinely new landing page, your web team (or a page-builder tool) creates it, and then the Visual Editor can personalize every element of it per segment, which is where it shines.</p></details>
+<details class="fq"><summary>Can I embed a form (like an email sign-up) through the Visual Editor?</summary><p>Partly, with care. The editor's Edit HTML and Insert Element features can inject an HTML block, and the Custom HTML template can carry a form's markup. But CleverTap does not process the form submission: where the entered data goes must be wired by your web team (their endpoint, their validation). So treat it as "yes for the visible form, your site for the plumbing", and verify the specifics with your CleverTap contact since the Visual Editor is in Private Beta and capabilities are still moving.</p></details>
+<details class="fq"><summary>Will Native Display slow my app or site down?</summary><p>It is designed not to: the content request runs alongside your page or app load, and with a fallback configured the user never waits on it. The practical safeguard is the same as the previous answer: default content in the slot, so nothing blocks and nothing gapes.</p></details>
+<details class="fq"><summary>Where should we start if we have never used it?</summary><p>One slot, one vertical use case, two weeks. Pick the busiest screen (usually the home feed or the cart), run one templated campaign with a control group, and read the conversion lift, not the clicks. That single number is what funds the second slot, and eventually the add-on conversation.</p></details>
+</div>
+</details>
+
+<h2 style="font-family:var(--disp);font-size:20px;margin:26px 0 4px">The 180: use cases by vertical</h2>
+<p class="sub" style="margin-bottom:4px">Six Web + six App per vertical. Every card names the template, the personalization mechanic, and where it renders. Scenarios are illustrative mappings that follow documented capabilities; they are not client case studies and carry no invented metrics.</p>
+
+<div class="filters" id="filters">
+  <div class="fgrp"><span class="flabel">Vertical</span><select class="fsel" id="fVert" aria-label="Filter by vertical"><option value="">All 15</option></select></div>
+  <div class="fgrp"><span class="flabel">Surface</span>
+    <button class="fbtn on" aria-pressed="true" data-f="surf" data-v="">All</button>
+    <button class="fbtn" aria-pressed="false" data-f="surf" data-v="app">App</button>
+    <button class="fbtn" aria-pressed="false" data-f="surf" data-v="web">Web</button></div>
+  <div class="fgrp"><span class="flabel">Mechanic</span>
+    <button class="fbtn on" aria-pressed="true" data-f="mech" data-v="">All</button>
+    <button class="fbtn" aria-pressed="false" data-f="mech" data-v="liquid">Liquid</button>
+    <button class="fbtn" aria-pressed="false" data-f="mech" data-v="profile">Profile</button>
+    <button class="fbtn" aria-pressed="false" data-f="mech" data-v="event">Event</button>
+    <button class="fbtn" aria-pressed="false" data-f="mech" data-v="kv">Key-Value</button>
+    <button class="fbtn" aria-pressed="false" data-f="mech" data-v="rec">Recs+Catalog</button></div>
+  <div class="fgrp"><span class="flabel">Template</span><select class="fsel" id="fTmpl" aria-label="Filter by template type"><option value="">All</option></select></div>
+  <span class="fcount" id="fCount"></span>
+</div>
+
+<section class="gal" id="gal" aria-label="180 Native Display use cases with wireframe and branded execution mockups"></section>
+<style>
+.famband{margin:34px 0 6px;padding-top:20px;border-top:1px solid var(--line)}
+.famband h2{font-family:var(--disp);font-size:19px;margin-bottom:2px}
+.famband .fsub{color:var(--mid);font-size:13px;margin-bottom:12px}
+.fampills{display:flex;flex-wrap:wrap;gap:9px}
+.fpill{font-family:var(--mono);font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--mid);border:1px solid var(--line);border-radius:22px;padding:9px 16px;text-decoration:none;transition:.15s;white-space:nowrap}
+.fpill:hover{border-color:var(--hi);color:var(--hi)}
+.fpill.here{background:var(--nd);border-color:var(--nd);color:#14181B;font-weight:500}
+[data-theme="light"] .fpill.here{color:#fff}
+</style><nav class="famband" aria-label="Field Guide Family navigation"><h2>The Field Guide Family</h2><div class="fsub">One library, many channels. This is guide 11.</div><div class="fampills"><a class="fpill" href="https://shijunneo-bot.github.io/amp-email-gallery/">01 AMP EMAIL</a><a class="fpill" href="https://shijunneo-bot.github.io/rich-push-gallery/">02 RICH PUSH</a><a class="fpill" href="https://shijunneo-bot.github.io/ct-sms-field-guide/">03 SMS</a><a class="fpill" href="https://shijunneo-bot.github.io/whatsapp-addon-gallery/">04 WHATSAPP</a><a class="fpill" href="https://shijunneo-bot.github.io/ct-template-gallery/">05 IN-APP</a><a class="fpill" href="https://shijunneo-bot.github.io/ct-linked-content-gallery/">06 LINKED CONTENT</a><a class="fpill" href="https://shijunneo-bot.github.io/ct-recommendations-gallery/">07 RECOMMENDATIONS</a><a class="fpill" href="https://shijunneo-bot.github.io/ct-geofencing-gallery/">08 GEOFENCING</a><a class="fpill" href="https://shijunneo-bot.github.io/ct-reminders-gallery/">09 REMINDERS</a><a class="fpill" href="https://shijunneo-bot.github.io/ct-promos-gallery/">10 PROMOS</a><span class="fpill here">11 NATIVE DISPLAY · YOU ARE HERE</span><a class="fpill" href="https://shijunneo-bot.github.io/ct-product-experiences-gallery/">12 PRODUCT EXPERIENCES</a></div></nav>
+<footer>
+  <div>Native Display Field Guide · Built for client conversations, not as a spec. All brands shown (Lumo Mobile, Vela+, Arca Bank, Sagana Care, Tokobell, MakanGo, SwiftRide, Kitefare, Nebula Arena, BrightPath, Ovia Health, FreshCart, The Daily Lens, OrbitPoints, HavenList) are fictional. Verify SDK versions and packaging against docs.clevertap.com before production.</div>
+  <div class="suite">
+    <a href="https://shijunneo-bot.github.io/rich-push-gallery/">Rich Push</a>
+    <a href="https://shijunneo-bot.github.io/whatsapp-addon-gallery/">WhatsApp</a>
+    <a href="https://shijunneo-bot.github.io/ct-sms-field-guide/">SMS</a>
+    <a href="https://shijunneo-bot.github.io/amp-email-gallery/">AMP Email</a>
+    <a href="https://shijunneo-bot.github.io/ct-linked-content-gallery/">Linked Content</a>
+    <a href="https://shijunneo-bot.github.io/ct-recommendations-gallery/">Recommendations</a>
+    <a href="https://shijunneo-bot.github.io/ct-geofencing-gallery/">Geofence</a>
+    <a href="https://shijunneo-bot.github.io/ct-reminders-gallery/">Reminders</a>
+    <a href="https://shijunneo-bot.github.io/ct-promos-gallery/">Promos</a>
+    <a href="https://shijunneo-bot.github.io/ct-template-gallery/">In-App Templates</a>
+    <a href="https://shijunneo-bot.github.io/ct-product-experiences-gallery/">Product Experiences</a>
+  </div>
+</footer>
+</main>
+<script>
+const TN={SM:"Simple Message",CM:"Carousel Message",MI:"Message with Icon",KV:"Custom Key-Value (App)",IC:"Image-only Carousel",WB:"Banner",WBT:"Banner with Text",WC:"Banner Carousel",WCT:"Banner Carousel with Text",WKV:"Custom Key-Value (Web)"};
+const BRANDS={
+"Telco":{n:"Lumo Mobile",c:"#5B4FE9",t:"#EEEBFF"},
+"OTT / Streaming":{n:"Vela+",c:"#D6274A",t:"#FFE9EE"},
+"Fintech / Banking":{n:"Arca Bank",c:"#0E7C7B",t:"#E4F5F4"},
+"Insurance":{n:"Sagana Care",c:"#2E8B57",t:"#E7F5EC"},
+"E-commerce":{n:"Tokobell",c:"#F26522",t:"#FFEFE5"},
+"F&B / Delivery":{n:"MakanGo",c:"#E23744",t:"#FFECEA"},
+"Ride-hailing":{n:"SwiftRide",c:"#00A870",t:"#E3F7EF"},
+"Travel / OTA":{n:"Kitefare",c:"#1B7FDB",t:"#E7F2FD"},
+"Gaming":{n:"Nebula Arena",c:"#7B3FF2",t:"#F0E9FE"},
+"Edtech":{n:"BrightPath",c:"#2563EB",t:"#E8EFFE"},
+"Healthtech":{n:"Ovia Health",c:"#0FA3A3",t:"#E5F6F6"},
+"Retail / Grocery":{n:"FreshCart",c:"#3BA135",t:"#EAF6E8"},
+"Media / News":{n:"The Daily Lens",c:"#1E2430",t:"#EEF0F3"},
+"Loyalty / Rewards":{n:"OrbitPoints",c:"#C98A12",t:"#FBF1DC"},
+"Real Estate":{n:"HavenList",c:"#123C6B",t:"#E8EFF7"}};
+// [vertical,surface,name,scenario,tmpl,mechanics,location,headline,cta]
+const D=[
+["Telco","web","Plan upgrade banner","User is at 80%+ of data cap: nudge the upgrade before throttling does the talking","WBT","profile,liquid","Account page","{{Name}}, 82% of your data is gone","Upgrade plan"],
+["Telco","web","Roaming offer carousel","Travel intent detected (flight search / airport geofence event): rotate roaming packs","WC","event","Homepage hero","Roam Japan from $5/day","See packs"],
+["Telco","web","Bill-due ribbon","Invoice generated event: quiet ribbon with amount and due date, dismissible","WKV","kv,liquid","My-account header","Bill of {{amount}} due 28 Jul","Pay now"],
+["Telco","web","Device upgrade recs","Browsing phones: recommendation carousel from device catalog, filtered by budget history","WCT","rec","Shop PLP","Phones picked for you","Compare"],
+["Telco","web","Loyalty tier banner","Tier change event: celebrate the new tier and surface one concrete perk","WB","profile","Dashboard","Welcome to Gold: free 5GB monthly","Claim perk"],
+["Telco","web","Win-back offer strip","Dormant web user returns: personalized comeback offer rendered by the site","WKV","kv,liquid","Homepage","We saved 20GB for you, {{Name}}","Reactivate"],
+["Telco","app","Data top-up card","Usage crosses 80%: one-tap top-up card in the home feed","SM","profile","Home feed","Running low: 1.8GB left","Top up 5GB"],
+["Telco","app","Plan compare carousel","User opened plans screen twice this week: swipeable plan cards","CM","event","Plans screen","Unlimited vs 50GB: compare","View plans"],
+["Telco","app","Points expiry strip","Loyalty points expiring in 14 days: icon row with points count via liquid","MI","liquid","Home feed","{{points}} pts expire in 14 days","Redeem"],
+["Telco","app","Accessory recs rail","Post device purchase: image carousel of matching accessories from catalog","IC","rec","Shop tab","Made for your new phone","Shop"],
+["Telco","app","Roaming activation card","Pre-trip (itinerary event): app-rendered activation card with country flag","KV","kv","Home feed","Tokyo trip? Roaming in one tap","Activate"],
+["Telco","app","Bill summary card","Bill ready event: amount, due date, one-tap pay","SM","profile,liquid","Account tab","July bill: {{amount}}","Pay bill"],
+["OTT / Streaming","web","Continue-watching rail","Mid-series viewer: resume rail built from watch-history recommender","WC","rec","Homepage","Continue watching","Resume"],
+["OTT / Streaming","web","New episode banner","Followed show drops: banner with show art and episode number","WBT","event","Show hub","Harbour Lights S3E4 just dropped","Play now"],
+["OTT / Streaming","web","Renewal ribbon","Subscription expiring in 7 days: site-rendered ribbon with plan name via liquid","WKV","kv,liquid","Account page","{{plan}} ends in 7 days","Renew"],
+["OTT / Streaming","web","Genre picks carousel","Genre affinity segment: rotating editorial picks from content catalog","WCT","rec","Browse page","Because you love thrillers","Browse"],
+["OTT / Streaming","web","Trial-ending banner","Free trial day 6 of 7: convert with the plan the viewer sampled most","WB","profile","Homepage","1 day left of your free trial","Keep watching"],
+["OTT / Streaming","web","Win-back strip","Churned viewer revisits: what-you-missed strip rendered by the site","WKV","kv","Homepage","12 new titles since you left","See what's new"],
+["OTT / Streaming","app","Continue-watching carousel","Resume point exists: artwork carousel sorted by recency","CM","rec","Home feed","Pick up where you left off","Resume"],
+["OTT / Streaming","app","New episode card","New drop for a followed show: single card with play deep link","SM","event","Home feed","New episode: Harbour Lights","Play"],
+["OTT / Streaming","app","For-you rail","Affinity recommender: image-only rail that reads as editorial","IC","rec","Home feed","Tonight's picks for you","Watch"],
+["OTT / Streaming","app","Renewal card","Expiring sub: icon card with renewal date via liquid","MI","liquid","Account tab","Renews {{date}}: stay on Premium","Manage"],
+["OTT / Streaming","app","Trial conversion card","Trial ending: app-rendered card matching the paywall design system","KV","kv","Home feed","Trial ends tomorrow night","Choose plan"],
+["OTT / Streaming","app","Year-in-review card","Annual recap season: hours watched and top genre from profile","SM","profile","Home feed","Your 2026: 214 hours of drama","See recap"],
+["Fintech / Banking","web","Pre-approved loan banner","Eligibility flag on profile: amount shown via liquid, quiet compliance-safe copy","WBT","profile,liquid","Dashboard","Pre-approved: up to {{limit}}","Check offer"],
+["Fintech / Banking","web","Card upgrade carousel","Spend tier reached: card products carousel from catalog","WCT","rec","Products page","Cards that match your spend","Compare"],
+["Fintech / Banking","web","KYC completion ribbon","KYC incomplete: site-rendered ribbon with the exact missing step","WKV","kv","Account page","One step left: verify your ID","Finish KYC"],
+["Fintech / Banking","web","Cashback banner","Reward earned event: celebrate and route to redemption","WB","event","Home","You earned $12 cashback","Redeem"],
+["Fintech / Banking","web","Investment picks rail","Portfolio gap detected: fund recommendations from catalog","WC","rec","Invest page","Balance your portfolio","Explore funds"],
+["Fintech / Banking","web","Low-balance nudge","Balance under threshold: gentle top-up prompt rendered by the site","WKV","kv,liquid","Dashboard","Balance below {{threshold}}","Top up"],
+["Fintech / Banking","app","Offer strip","Spend pattern segment: contextual merchant offer in home feed","SM","profile","Home feed","5% back at cafes this week","Activate"],
+["Fintech / Banking","app","Card products carousel","Upsell segment: swipeable card art with benefit one-liners","CM","rec","Cards tab","Your next card, three options","Compare"],
+["Fintech / Banking","app","KYC nudge card","Pending KYC: icon card, one tap to resume","MI","profile","Home feed","Verify ID to unlock transfers","Resume"],
+["Fintech / Banking","app","Cashback card","Reward event: amount via liquid, confetti restrained","SM","event,liquid","Home feed","{{amount}} cashback landed","View"],
+["Fintech / Banking","app","Fund recs rail","Invest intent: image rail of funds from catalog","IC","rec","Invest tab","Funds picked for your goals","Invest"],
+["Fintech / Banking","app","Bill-pay reminder","Registered biller due: app-rendered reminder matching ledger UI","KV","kv,liquid","Home feed","Electric bill {{amount}} due Fri","Pay"],
+["Insurance","web","Renewal banner","Policy expiring in 30 days: policy name and date via liquid","WBT","profile,liquid","Dashboard","{{policy}} renews 20 Aug","Renew early"],
+["Insurance","web","Quote resume ribbon","Abandoned quote: site-rendered ribbon with saved quote amount","WKV","kv","Homepage","Your quote is saved: $42/mo","Resume quote"],
+["Insurance","web","Add-on cover carousel","Coverage gap: rider recommendations from product catalog","WCT","rec","Products page","Riders that fit your plan","See riders"],
+["Insurance","web","Wellness benefit banner","Active plan holder: unused benefit spotlight","WB","profile","Member area","Free health screening unused","Book now"],
+["Insurance","web","Claim status ribbon","Claim update event: current stage rendered inline by the site","WKV","kv","Claims page","Claim #8241: under review","Track"],
+["Insurance","web","Cross-sell carousel","Single-policy holder: motor-to-health bridge offers from catalog","WC","rec","Homepage","Cover more than the car","Explore"],
+["Insurance","app","Renewal card","Expiring policy: premium and date via liquid, one-tap renew","SM","profile,liquid","Home feed","Renew by {{date}}: {{premium}}","Renew"],
+["Insurance","app","Quote resume card","Abandoned quote: app-rendered card in the quote flow's own style","KV","kv","Home feed","Finish your quote in 2 mins","Resume"],
+["Insurance","app","Add-on cover carousel","Upsell riders: swipeable benefit cards from catalog","CM","rec","Plans tab","Add cover from $3/mo","Browse"],
+["Insurance","app","Claim tracker card","Claim event: icon card with stage and next step","MI","event","Home feed","Claim approved: payout Fri","Details"],
+["Insurance","app","Wellness check-in","Program member: streak-friendly nudge card","SM","profile","Home feed","Week 4: log your steps","Check in"],
+["Insurance","app","Policy doc card","Document ready event: app-rendered download card","KV","kv","Account tab","Your policy doc is ready","Download"],
+["E-commerce","web","Cart drop-off ribbon","Cart abandoned: name and cart contents via KV (the canonical CleverTap example)","WKV","kv,liquid","Cart page","{{Name}}, your cart misses you","Checkout"],
+["E-commerce","web","Recommended-for-you rail","Browse history: item2vec recommendations from catalog","WC","rec","Homepage","Picked for you","Shop now"],
+["E-commerce","web","Price-drop banner","Watched item price falls: item and new price via event props","WBT","event","PDP / PLP","Price drop: sneakers now $59","Grab it"],
+["E-commerce","web","Back-in-stock ribbon","Restock event on a watched item: site-rendered inline alert","WKV","kv","PDP","Back in stock: size M","Add to cart"],
+["E-commerce","web","Category hero carousel","Category affinity: rotating hero from catalog, per segment","WCT","rec","Homepage","New in sportswear","Explore"],
+["E-commerce","web","Loyalty coupon banner","Tier-based coupon: code shown via liquid at the moment of truth","WB","profile,liquid","Checkout","Gold perk: {{code}} for 10% off","Apply"],
+["E-commerce","app","Home recs carousel","Browse history: image-only product rail from catalog","IC","rec","Home feed","Trending in your size","Shop"],
+["E-commerce","app","Cart nudge card","Abandoned cart: app-rendered card with item thumbnails","KV","kv,liquid","Home feed","3 items waiting, {{Name}}","Checkout"],
+["E-commerce","app","Price-drop card","Watched item: old vs new price, one-tap to PDP","SM","event","Home feed","Watched item: $79 → $59","View"],
+["E-commerce","app","Category picks carousel","Affinity segment: swipeable curated picks","CM","rec","Category tab","Fresh picks in sportswear","Browse"],
+["E-commerce","app","Checkout offer strip","At checkout: app-rendered offer strip in checkout's own design","KV","kv","Checkout screen","Add $12 for free shipping","Add items"],
+["E-commerce","app","Reorder card","Replenishment cycle due: icon card with last order summary","MI","profile","Home feed","Time to restock coffee pods?","Reorder"],
+["F&B / Delivery","web","Reorder-your-usual banner","Past orders: usual order surfaced with one-tap reorder","WBT","rec","Homepage","Your usual: chicken rice set","Reorder"],
+["F&B / Delivery","web","LTO carousel","Meal-time window: limited-time offers rotating by daypart","WCT","event,liquid","Homepage","Lunch deals until {{time}}","Order now"],
+["F&B / Delivery","web","Points expiry ribbon","Loyalty points expiring: site-rendered counter ribbon","WKV","kv","Account page","480 pts expire Sunday","Use points"],
+["F&B / Delivery","web","Restaurant recs rail","Cuisine affinity: restaurant carousel from catalog","WC","rec","Browse page","More Thai places you'd like","Browse"],
+["F&B / Delivery","web","Free-delivery banner","Cart under threshold: amount-to-go via liquid","WB","profile,liquid","Cart page","{{gap}} away from free delivery","Add dishes"],
+["F&B / Delivery","web","Win-back strip","Lapsed diner returns: comeback voucher rendered by the site","WKV","kv","Homepage","$8 off your comeback order","Claim"],
+["F&B / Delivery","app","Reorder card","Usual order detected: one-tap reorder with items","SM","rec","Home feed","The usual from Ah Hock's?","Reorder"],
+["F&B / Delivery","app","LTO carousel","Meal window: swipeable daypart offers","CM","event,liquid","Home feed","Lunch flash deals, ends {{time}}","Order"],
+["F&B / Delivery","app","Points strip","Expiring points: icon strip with count via liquid","MI","liquid","Home feed","{{points}} pts expire Sun","Redeem"],
+["F&B / Delivery","app","Cuisine recs rail","Affinity: image-only cuisine rail from catalog","IC","rec","Home feed","Craving Thai again?","Explore"],
+["F&B / Delivery","app","Free-delivery card","Threshold gap: app-rendered progress bar card","KV","kv","Cart screen","$4 more for free delivery","Add"],
+["F&B / Delivery","app","Win-back card","Lapsed user: welcome-back offer card","SM","profile","Home feed","We missed you: $8 off","Order now"],
+["Ride-hailing","web","Ride-type upsell banner","Booking intent: premium tier nudge on the booking page","WBT","event","Booking page","Premier for $2 more today","Try Premier"],
+["Ride-hailing","web","Subscription pass carousel","Frequent rider: pass options with per-ride savings","WCT","profile","Homepage","RidePass: save 15% monthly","See passes"],
+["Ride-hailing","web","Promo ribbon","Dormant rider: personalized promo code via liquid","WKV","kv,liquid","Homepage","{{code}}: 30% off next ride","Apply"],
+["Ride-hailing","web","Airport rides banner","Travel intent event: fixed-fare airport offer","WB","event","Homepage","Airport, fixed fare $22","Book"],
+["Ride-hailing","web","Rewards banner","Tier progress: rides-to-next-tier from profile","WB","profile","Account page","3 rides to Platinum","View perks"],
+["Ride-hailing","web","Route recs rail","Commute pattern: saved-route shortcuts from catalog","WC","rec","Homepage","Your usual routes","Book again"],
+["Ride-hailing","app","Home promo card","Dormant rider: comeback promo on the map screen slot","SM","profile","Home map screen","30% off, just for this week","Ride now"],
+["Ride-hailing","app","Ride-type carousel","Booking flow: swipeable tier upsell with ETAs","CM","event","Booking screen","Premier arriving in 3 min","Select"],
+["Ride-hailing","app","Pass offer card","Frequent rider: icon card with monthly savings math","MI","profile","Home feed","RidePass saves you $18/mo","Get pass"],
+["Ride-hailing","app","Airport ride card","Itinerary event: app-rendered card with terminal detail","KV","kv","Home map screen","Flight at 6pm? Book T1 ride","Book"],
+["Ride-hailing","app","Rewards strip","Tier progress: points via liquid in account","SM","liquid","Account tab","{{points}} pts: 3 rides to go","Progress"],
+["Ride-hailing","app","Saved-route rail","Commute pattern: image rail of frequent destinations","IC","rec","Home feed","Home, office, gym: one tap","Go"],
+["Travel / OTA","web","Fare-drop banner","Watched route price falls: route and fare via liquid","WBT","event,liquid","Search results","SIN→HND now {{fare}}","Book fare"],
+["Travel / OTA","web","Destination carousel","Search history: destination inspiration from catalog","WCT","rec","Homepage","Still dreaming of Japan?","Explore"],
+["Travel / OTA","web","Booking resume ribbon","Abandoned booking: site-rendered resume strip with trip summary","WKV","kv","Homepage","Your Bali trip is saved","Resume"],
+["Travel / OTA","web","Ancillary upsell banner","Post-booking: seats and baggage for the booked trip","WB","event","Booking page","Pick seats for your Bali trip","Choose seats"],
+["Travel / OTA","web","Loyalty tier banner","Tier status: nights-to-next-tier from profile","WB","profile","Account page","2 nights to Gold status","View"],
+["Travel / OTA","web","Package recs rail","Trip-type affinity: package carousel from catalog","WC","rec","Homepage","Beach escapes under $400","Browse"],
+["Travel / OTA","app","Fare-drop card","Watched route: new fare via liquid, one-tap to book","SM","event,liquid","Home feed","Fare drop: SIN→HND {{fare}}","Book"],
+["Travel / OTA","app","Destination carousel","Search history: swipeable destination cards","CM","rec","Home feed","Osaka, Seoul, Taipei: pick one","Explore"],
+["Travel / OTA","app","Booking resume card","Abandoned booking: app-rendered card in booking-flow style","KV","kv","Home feed","Bali trip: 2 steps to go","Resume"],
+["Travel / OTA","app","Seat/baggage upsell","Post-booking: icon card scoped to the trip","MI","event","Trips tab","Add 20kg for your Bali flight","Add bag"],
+["Travel / OTA","app","Loyalty strip","Tier progress: points via liquid","SM","liquid","Account tab","{{miles}} miles banked","View tier"],
+["Travel / OTA","app","Package recs rail","Trip-type: image-only package rail","IC","rec","Home feed","Long-weekend escapes","See deals"],
+["Gaming","web","Offer bundle banner","Spend tier: bundle sized to the player's wallet band","WBT","profile","Store page","Starter bundle: 68% value","Get bundle"],
+["Gaming","web","Event carousel","Live event running: rotating event art with countdown via liquid","WCT","event,liquid","Homepage","Storm Rift ends in {{hrs}}h","Join event"],
+["Gaming","web","Win-back ribbon","Lapsed player visits site: what-changed strip rendered by the site","WKV","kv","Homepage","Season 9 changed everything","See update"],
+["Gaming","web","Daily reward banner","Login streak: today's reward from profile","WB","profile","Home","Day 6 reward waiting","Claim"],
+["Gaming","web","Item recs rail","Play pattern: item recommendations from catalog","WC","rec","Store page","Skins for your main","Browse"],
+["Gaming","web","Battle-pass banner","Pass eligible: season art and price point","WB","profile","Home","Season Pass: 40 tiers","Unlock"],
+["Gaming","app","Daily reward card","Streak day N: reward card in home feed","SM","profile","Home feed","Day 6 streak: 200 gems","Claim"],
+["Gaming","app","Event carousel","Live event: swipeable event cards with timers via liquid","CM","event,liquid","Home feed","Storm Rift: {{hrs}}h left","Play"],
+["Gaming","app","Bundle offer card","Spend tier: icon card with bundle contents","MI","profile","Store tab","Mega bundle: skins + 1k gems","Buy"],
+["Gaming","app","Win-back card","Lapsed player: app-rendered card with new-content teaser","KV","kv","Home feed","New map since you left","Return"],
+["Gaming","app","Item recs rail","Play pattern: image-only item rail from catalog","IC","rec","Store tab","For your loadout","Shop"],
+["Gaming","app","Battle-pass strip","Eligible: pass progress via liquid","SM","liquid","Home feed","Tier {{tier}}/40 complete","Continue"],
+["Edtech","web","Resume-learning banner","Incomplete course: course name and % via liquid","WBT","profile,liquid","Dashboard","{{course}}: 64% done","Resume"],
+["Edtech","web","Next-course carousel","Course completed: what-next recommendations from catalog","WCT","rec","Homepage","What to learn next","Browse"],
+["Edtech","web","Installment ribbon","Payment due: amount and date rendered by the site","WKV","kv","Account page","Installment 2 of 4 due Fri","Pay"],
+["Edtech","web","Trial-to-paid banner","Trial ending: plan matched to sampled content","WB","profile","Dashboard","Trial ends in 2 days","Go Pro"],
+["Edtech","web","Streak banner","Practice streak alive: day count from profile","WB","profile","Home","12-day streak: keep it alive","Practice"],
+["Edtech","web","Scholarship strip","Eligible segment: offer rendered inline by the site","WKV","kv,liquid","Homepage","{{Name}}, 40% scholarship open","Apply"],
+["Edtech","app","Resume-learning card","Incomplete lesson: progress bar card, one-tap resume","SM","profile,liquid","Home feed","{{course}} at 64%: finish it","Resume"],
+["Edtech","app","Next-course carousel","Completion event: swipeable recommendations","CM","rec","Home feed","You finished! What's next","Explore"],
+["Edtech","app","Streak card","Practice streak: icon card with flame and count","MI","profile","Home feed","12-day streak on the line","Practice"],
+["Edtech","app","Installment card","Payment due: app-rendered card in billing style","KV","kv","Home feed","Installment due Friday","Pay now"],
+["Edtech","app","Trial conversion card","Trial ending: plan card with sampled-content proof","SM","profile","Home feed","You sampled 9 lessons: go Pro","Upgrade"],
+["Edtech","app","Course recs rail","Interest graph: image-only course rail","IC","rec","Explore tab","Courses for data careers","Browse"],
+["Healthtech","web","Appointment ribbon","Upcoming appointment: date, doctor, and location rendered by the site","WKV","kv,liquid","Dashboard","Dr Lim, Thu {{time}}","Directions"],
+["Healthtech","web","Program recs carousel","Health goal set: program recommendations from catalog","WCT","rec","Homepage","Programs for better sleep","Browse"],
+["Healthtech","web","Refill banner","Medication cycle due: quiet refill nudge","WBT","profile","Account page","Refill due in 3 days","Refill"],
+["Healthtech","web","Wellness content banner","Condition segment: relevant content spotlight","WB","profile","Home","5-min stretches for desk days","Read"],
+["Healthtech","web","Renewal ribbon","Membership expiring: site-rendered renewal strip","WKV","kv","Account page","Membership ends 31 Jul","Renew"],
+["Healthtech","web","Lab-results ribbon","Results ready event: secure inline notice, no detail on page","WKV","kv","Dashboard","Your results are ready","View securely"],
+["Healthtech","app","Appointment card","Upcoming: card with time and one-tap directions","SM","profile,liquid","Home feed","Thu {{time}}: Dr Lim, Novena","Directions"],
+["Healthtech","app","Program carousel","Goal-based: swipeable program cards","CM","rec","Home feed","Sleep better in 4 weeks","Start"],
+["Healthtech","app","Refill card","Cycle due: icon card with pharmacy CTA","MI","profile","Home feed","Refill ready at your pharmacy","Order"],
+["Healthtech","app","Wellness content card","Segment: article card in feed style","SM","profile","Home feed","Desk stretches, 5 minutes","Read"],
+["Healthtech","app","Membership renewal card","Expiring: app-rendered card with plan detail","KV","kv","Account tab","Renew before 31 Jul","Renew"],
+["Healthtech","app","Results card","Ready event: app-rendered secure-notice card","KV","kv","Home feed","Lab results ready","Open securely"],
+["Retail / Grocery","web","Basket recs rail","Cart contents: goes-well-with carousel from catalog","WC","rec","Cart page","Goes well with your basket","Add"],
+["Retail / Grocery","web","Replenishment banner","Reorder cycle: usual items via liquid","WBT","profile,liquid","Homepage","{{Name}}, milk run time?","Add usuals"],
+["Retail / Grocery","web","Weekly-offers carousel","Store affinity: this week's offers rotating","WCT","event","Homepage","This week's specials","Shop deals"],
+["Retail / Grocery","web","Points ribbon","Loyalty points: balance rendered by the site","WKV","kv","Account page","1,240 pts = $12 off","Redeem"],
+["Retail / Grocery","web","Pickup banner","Local store segment: in-store pickup availability","WB","profile","Checkout","Free pickup at Tampines","Choose slot"],
+["Retail / Grocery","web","Back-in-stock ribbon","Restock on watched item: inline alert","WKV","kv","PDP","Back in stock: oat milk 1L","Add to cart"],
+["Retail / Grocery","app","Aisle recs carousel","Browse history: image-only shelf rail","IC","rec","Home feed","Restock your pantry","Shop"],
+["Retail / Grocery","app","Replenishment card","Cycle due: usual-basket card, one-tap add-all","SM","profile,liquid","Home feed","Your usual 8 items, one tap","Add all"],
+["Retail / Grocery","app","Weekly-offers carousel","Affinity: swipeable weekly deals","CM","event","Home feed","Weekend specials are live","Browse"],
+["Retail / Grocery","app","Points strip","Loyalty: balance via liquid with icon","MI","liquid","Home feed","{{points}} pts ready to spend","Redeem"],
+["Retail / Grocery","app","Pickup card","Locale: app-rendered slot-picker card","KV","kv","Cart screen","Pickup today, 6-7pm free","Pick slot"],
+["Retail / Grocery","app","Back-in-stock card","Restock event: item card with one-tap add","SM","event","Home feed","Oat milk is back","Add"],
+["Media / News","web","Topic feed rail","Reading history: topic recommendations from catalog","WC","rec","Homepage","More on climate tech","Read"],
+["Media / News","web","Subscription banner","Paywall meter nearly spent: articles-left via liquid","WBT","profile,liquid","Article page","{{left}} free articles left","Subscribe"],
+["Media / News","web","Breaking-news ribbon","Major event: site-rendered breaking strip","WKV","kv","Homepage","Breaking: markets react","Follow live"],
+["Media / News","web","Newsletter banner","Engaged reader: topic-matched newsletter opt-in","WB","profile","Article page","Tech Weekly, every Friday","Sign up"],
+["Media / News","web","Renewal ribbon","Sub expiring: renewal strip rendered by the site","WKV","kv","Account page","Renew and keep your archive","Renew"],
+["Media / News","web","Recommended reads","Affinity: editorial picks carousel","WCT","rec","Homepage","Editors' picks for you","Read"],
+["Media / News","app","For-you carousel","History: image-only story rail","IC","rec","Home feed","Your morning briefing","Read"],
+["Media / News","app","Subscription card","Meter spent: card with articles-read count via liquid","SM","profile,liquid","Article screen","You read {{count}} this month","Go unlimited"],
+["Media / News","app","Breaking-news card","Event: app-rendered breaking card in feed style","KV","kv","Home feed","Breaking: election result in","Open live"],
+["Media / News","app","Newsletter card","Engaged: icon card with topic match","MI","profile","Home feed","Get Tech Weekly in your inbox","Subscribe"],
+["Media / News","app","Renewal card","Expiring: app-rendered renewal card","KV","kv","Account tab","Sub ends Sunday","Renew"],
+["Media / News","app","Recommended reads","Affinity: swipeable story cards","CM","rec","Home feed","Long reads for your commute","Read"],
+["Loyalty / Rewards","web","Tier-status banner","Tier change: new tier and one perk via liquid","WBT","profile,liquid","Dashboard","{{Name}}, welcome to Platinum","See perks"],
+["Loyalty / Rewards","web","Points-expiry ribbon","Points expiring: site-rendered countdown strip","WKV","kv","Account page","2,400 pts expire in 9 days","Redeem"],
+["Loyalty / Rewards","web","Redeem-now carousel","Reward catalog: redemptions within reach of balance","WCT","rec","Rewards page","Within reach of your points","Redeem"],
+["Loyalty / Rewards","web","Next-tier banner","Near threshold: spend-to-go from profile","WB","profile","Dashboard","$120 to Platinum","Track"],
+["Loyalty / Rewards","web","Partner-offer carousel","Segment: partner offers from catalog","WC","rec","Homepage","Partner deals this month","Browse"],
+["Loyalty / Rewards","web","Birthday ribbon","Birthday month: personal reward rendered by the site","WKV","kv,liquid","Homepage","Happy birthday {{Name}}: 2x pts","Claim gift"],
+["Loyalty / Rewards","app","Tier-status card","Change event: celebratory card with tier art","SM","profile,liquid","Home feed","Platinum unlocked, {{Name}}","See perks"],
+["Loyalty / Rewards","app","Points-expiry card","Expiring: icon card with count via liquid","MI","liquid","Home feed","{{points}} pts expire soon","Use now"],
+["Loyalty / Rewards","app","Redeem carousel","Within reach: swipeable reward cards","CM","rec","Rewards tab","3 rewards you can claim now","Redeem"],
+["Loyalty / Rewards","app","Next-tier card","Near threshold: progress card","SM","profile","Home feed","$120 to Platinum","Progress"],
+["Loyalty / Rewards","app","Partner-offer rail","Segment: image-only partner rail","IC","rec","Home feed","Partner perks for you","Browse"],
+["Loyalty / Rewards","app","Birthday reward card","DOB month: app-rendered gift card","KV","kv,liquid","Home feed","A gift for you, {{Name}}","Open"],
+["Real Estate","web","Saved-search carousel","Saved criteria: matching listings from catalog","WCT","rec","Homepage","5 new matches: 3BR Bishan","View"],
+["Real Estate","web","Price-drop banner","Watched listing drops: address and new price via liquid","WBT","event,liquid","Listing page","Price cut: {{addr}} now {{price}}","See listing"],
+["Real Estate","web","New-listings ribbon","Search match: count of new matches rendered by the site","WKV","kv","Homepage","3 new listings match your search","View"],
+["Real Estate","web","Featured carousel","Locale: featured listings from catalog","WC","rec","Search results","Featured near you","Browse"],
+["Real Estate","web","Lead-form banner","High-intent visitor: agent-contact prompt","WB","profile","Listing page","Questions? Agents reply in 1h","Ask agent"],
+["Real Estate","web","Boost banner","Seller account: listing-boost offer rendered inline","WKV","kv","Seller dashboard","Boost gets 3x more views","Boost"],
+["Real Estate","app","Saved-search carousel","Criteria match: swipeable listing cards","CM","rec","Home feed","New for your saved search","View"],
+["Real Estate","app","Price-drop card","Watched listing: new price via liquid","SM","event,liquid","Home feed","Watched flat now {{price}}","See it"],
+["Real Estate","app","New-listings card","Match event: app-rendered match-count card","KV","kv","Home feed","3 new matches today","Browse"],
+["Real Estate","app","Featured rail","Locale: image-only listing rail","IC","rec","Search screen","Featured in Bishan","View"],
+["Real Estate","app","Lead nudge card","High intent: icon card, one-tap call agent","MI","profile","Listing screen","Viewed 4x: talk to the agent?","Call"],
+["Real Estate","app","Boost offer card","Seller: app-rendered boost card","KV","kv","Dashboard tab","Your listing could rank higher","Boost"]
+];
+// ---- wireframe builders ----
+function skl(w,h){return '<div class="sk" style="width:'+w+';height:'+h+'px"></div>'}
+function feedRows(n){let s='';for(let i=0;i<n;i++){s+='<div class="skrow">'+skl('22px',22)+'<div style="flex:1;display:flex;flex-direction:column;gap:3px;justify-content:center">'+skl('80%',4)+skl('55%',4)+'</div></div>'}return s}
+function ndUnit(t){
+  if(t==='SM')return '<div class="ndu" style="height:32px;flex-direction:column"><span class="lbl">SIMPLE MESSAGE<br>title · msg · CTA</span></div>';
+  if(t==='MI')return '<div class="ndu" style="height:28px"><span class="ico"></span><span class="lbl">MESSAGE + ICON</span></div>';
+  if(t==='CM')return '<div class="ndu" style="height:38px;flex-direction:column"><span class="lbl">CAROUSEL · 5 slides</span><span class="dotrow"><i></i><i></i><i></i></span></div>';
+  if(t==='IC')return '<div class="ndu" style="height:36px;flex-direction:column"><span class="lbl">IMAGE-ONLY CAROUSEL</span><span class="dotrow"><i></i><i></i><i></i></span></div>';
+  if(t==='KV')return '<div class="ndu" style="height:30px"><span class="kvchip">{ kv }</span><span class="lbl">APP-RENDERED</span></div>';
+  if(t==='WB')return '<div class="ndu" style="height:26px"><span class="lbl">BANNER · Div ID</span></div>';
+  if(t==='WBT')return '<div class="ndu" style="height:32px;flex-direction:column"><span class="lbl">BANNER + TEXT<br>headline · sub · CTA</span></div>';
+  if(t==='WC')return '<div class="ndu" style="height:30px;flex-direction:column"><span class="lbl">BANNER CAROUSEL</span><span class="dotrow"><i></i><i></i><i></i></span></div>';
+  if(t==='WCT')return '<div class="ndu" style="height:34px;flex-direction:column"><span class="lbl">CAROUSEL + TEXT</span><span class="dotrow"><i></i><i></i><i></i></span></div>';
+  if(t==='WKV')return '<div class="ndu" style="height:24px"><span class="kvchip">CT_web_native_display</span></div>';
+  return '';}
+function wireApp(t,loc){
+  const unit=ndUnit(t);const low=/checkout|cart|account|store|rewards|booking/i.test(loc);
+  return '<div class="mphone sm"><div class="mscreen">'
+    +'<div class="mtop sm"><span class="mlogo"></span><span class="mttl"></span></div>'
+    +'<div class="mfeed">'+(low?feedRows(1)+unit+feedRows(2):unit+feedRows(3))+'</div>'
+    +'<div class="mtabs sm"><i></i><i></i><i></i><i></i></div></div></div>';}
+function wireWeb(t,loc){
+  const unit=ndUnit(t);const isHero=/homepage|home$|hero/i.test(loc);
+  const grid='<div class="skrow">'+skl('32%',22)+skl('32%',22)+skl('32%',22)+'</div>';
+  return '<div class="mbrowser sm"><div class="mbar"><i></i><i></i><i></i><span class="url"></span></div>'
+    +'<div class="mpage"><div class="skrow">'+skl('30px',6)+skl('20px',6)+'<div style="margin-left:auto">'+skl('22px',6)+'</div></div>'
+    +(isHero?unit+grid:skl('55%',6)+grid+unit)+'</div></div>';}
+// ---- branded execution builders ----
+function esc(s){return s.replace(/&/g,'&amp;').replace(/</g,'&lt;')}
+function fmtH(h){return esc(h).replace(/\{\{(\w+)\}\}/g,'<span class="lq">{{$1}}</span>')}
+function bxUnit(t,B,h,c){
+  const grad='linear-gradient(120deg,'+B.c+'E6,'+B.c+'99)';
+  const hh=fmtH(h);const cta='<span class="bcta" style="background:'+B.c+'">'+esc(c)+'</span>';
+  const ctaW='<span class="bcta" style="background:rgba(255,255,255,.25);border:1px solid rgba(255,255,255,.7)">'+esc(c)+'</span>';
+  if(t==='SM')return '<div class="bx" style="background:'+B.t+';border-left:3px solid '+B.c+'"><span class="bh">'+hh+'</span>'+cta+'</div>';
+  if(t==='MI')return '<div class="bx row" style="background:'+B.t+'"><span class="bico" style="background:'+B.c+'"></span><span class="bh">'+hh+'</span>'+cta+'</div>';
+  if(t==='CM')return '<div class="bx onimg" style="background:'+grad+';min-height:44px"><span class="bh">'+hh+'</span>'+ctaW+'<span class="bdots"><i></i><i></i><i></i></span></div>';
+  if(t==='IC')return '<div class="bx onimg" style="background:'+grad+';min-height:42px;justify-content:flex-end"><span class="bh">'+hh+'</span><span class="bdots"><i></i><i></i><i></i></span></div>';
+  if(t==='KV')return '<div class="bx" style="background:#fff;border:1px solid '+B.c+'55;box-shadow:0 1px 3px rgba(0,0,0,.08)"><span class="bh">'+hh+'</span>'+cta+'</div>';
+  if(t==='WB')return '<div class="bx onimg" style="background:'+grad+';min-height:26px;flex-direction:row;align-items:center;gap:4px"><span class="bh" style="flex:1">'+hh+'</span>'+ctaW+'</div>';
+  if(t==='WBT')return '<div class="bx onimg" style="background:'+grad+';min-height:34px"><span class="bh">'+hh+'</span>'+ctaW+'</div>';
+  if(t==='WC')return '<div class="bx onimg" style="background:'+grad+';min-height:30px;flex-direction:row;align-items:center"><span class="bh" style="flex:1">'+hh+'</span>'+ctaW+'<span class="bdots"><i></i><i></i><i></i></span></div>';
+  if(t==='WCT')return '<div class="bx onimg" style="background:'+grad+';min-height:36px"><span class="bh">'+hh+'</span>'+ctaW+'<span class="bdots"><i></i><i></i><i></i></span></div>';
+  if(t==='WKV')return '<div class="bx row" style="background:'+B.t+';border:1px dashed '+B.c+'88"><span class="bh" style="flex:1">'+hh+'</span>'+cta+'</div>';
+  return '';}
+function execApp(t,loc,B,h,c){
+  const unit=bxUnit(t,B,h,c);const low=/checkout|cart|account|store|rewards|booking/i.test(loc);
+  return '<div class="mphone sm"><div class="mscreen">'
+    +'<div class="b-top" style="background:'+B.c+'"><span class="b-logo" style="background:#fff"></span><span class="b-name">'+B.n+'</span></div>'
+    +'<div class="bfeed">'+(low?feedRows(1)+unit+feedRows(2):unit+feedRows(3))+'</div>'
+    +'<div class="mtabs sm"><i style="background:'+B.c+'"></i><i></i><i></i><i></i></div></div></div>';}
+function execWeb(t,loc,B,h,c){
+  const unit=bxUnit(t,B,h,c);const isHero=/homepage|home$|hero/i.test(loc);
+  const grid='<div class="skrow">'+skl('32%',22)+skl('32%',22)+skl('32%',22)+'</div>';
+  return '<div class="mbrowser sm"><div class="mbar"><i></i><i></i><i></i><span class="url"></span></div>'
+    +'<div class="mpage" style="padding:0"><div class="b-nav" style="background:'+B.c+'"><span class="b-logo" style="background:#fff"></span><span class="b-name">'+B.n+'</span><span class="lnk" style="margin-left:auto"></span><span class="lnk"></span></div>'
+    +'<div style="flex:1;padding:5px;display:flex;flex-direction:column;gap:4px;overflow:hidden">'
+    +(isHero?unit+grid:skl('55%',6)+grid+unit)+'</div></div></div>';}
+// ---- render ----
+const VERTS=[...new Set(D.map(r=>r[0]))];
+const vSel=document.getElementById('fVert');VERTS.forEach(v=>{const o=document.createElement('option');o.value=v;o.textContent=v+' ('+BRANDS[v].n+')';vSel.appendChild(o)});
+const TMPLS=[...new Set(D.map(r=>r[4]))];
+const tSel=document.getElementById('fTmpl');TMPLS.forEach(t=>{const o=document.createElement('option');o.value=t;o.textContent=TN[t];tSel.appendChild(o)});
+const state={vert:'',surf:'',mech:'',tmpl:''};
+function stampFor(r){const m=r[5];if(m.includes('rec'))return['caveat','△ Recs · Cutting Edge'];if(m.includes('kv'))return['caveat','△ Dev-rendered'];return['ready','✓ Included'];}
+function mechTags(m){return m.split(',').map(x=>({liquid:'Liquid {{ }}',profile:'Profile prop',event:'Event prop',kv:'Key-Value',rec:'Recs + Catalog'}[x]||x));}
+function render(){
+  const g=document.getElementById('gal');let html='',n=0;
+  D.forEach((r,ri)=>{
+    const[v,s,name,sc,t,m,loc,h,c]=r;
+    if(state.vert&&v!==state.vert)return;
+    if(state.surf&&s!==state.surf)return;
+    if(state.mech&&!m.includes(state.mech))return;
+    if(state.tmpl&&t!==state.tmpl)return;
+    n++;
+    const B=BRANDS[v];
+    const[stc,stl]=stampFor(r);
+    const wire=s==='app'?wireApp(t,loc):wireWeb(t,loc);
+    const exec=s==='app'?execApp(t,loc,B,h,c):execWeb(t,loc,B,h,c);
+    html+='<div class="card" data-i="'+ri+'" role="button" tabindex="0" aria-label="Open details: '+name.replace(/"/g,'')+'"><div class="chead"><div><div class="cvert">'+v+' · '+(s==='app'?'App':'Web')+'</div><div class="cname">'+name+'</div></div><span class="stamp '+stc+'">'+stl+'</span></div>'
+      +'<div class="mockpair"><div class="mcol">'+wire+'<span class="mocklab">Wireframe</span></div><div class="mcol">'+exec+'<span class="mocklab ex">'+B.n+'</span></div></div>'
+      +'<div class="csc">'+sc+'</div>'
+      +'<div class="cmeta"><span class="mtag surf">'+(s==='app'?'APP':'WEB')+'</span><span class="mtag tmpl">'+TN[t]+'</span>'
+      +mechTags(m).map(x=>'<span class="mtag mech">'+x+'</span>').join('')
+      +(m.includes('kv')?'<span class="mtag dev">DEV WORK</span>':'')+'</div>'
+      +'<div class="cloc">Renders in: <b>'+loc+'</b></div></div>';
+  });
+  g.innerHTML=html;
+  document.getElementById('fCount').textContent=n+' / '+D.length+' shown';
+}
+document.querySelectorAll('.fbtn').forEach(b=>b.addEventListener('click',()=>{
+  const f=b.dataset.f;document.querySelectorAll('.fbtn[data-f="'+f+'"]').forEach(x=>x.classList.remove('on'));
+  b.classList.add('on');document.querySelectorAll('.fbtn[data-f="'+f+'"]').forEach(x=>x.setAttribute('aria-pressed',x===b));state[f]=b.dataset.v;render();}));
+vSel.addEventListener('change',()=>{state.vert=vSel.value;render()});
+tSel.addEventListener('change',()=>{state.tmpl=tSel.value;render()});
+render();
+</script>
+<style>
+.card{cursor:pointer}
+.modalbg{position:fixed;inset:0;background:rgba(5,9,10,.78);backdrop-filter:blur(6px);z-index:100;display:none;align-items:flex-start;justify-content:center;padding:4vh 16px;overflow-y:auto}
+.modalbg.open{display:flex}
+.modal{background:var(--surface);border:1px solid var(--line);border-radius:16px;max-width:760px;width:100%;padding:22px 24px;position:relative;margin-bottom:6vh}
+.mclose{position:absolute;top:14px;right:14px;background:var(--raised);border:1px solid var(--line);color:var(--mid);border-radius:8px;width:30px;height:30px;cursor:pointer;font-family:var(--mono);font-size:14px}
+.mclose:hover{color:var(--hi);border-color:var(--hi)}
+.mvert{font-family:var(--mono);font-size:10px;letter-spacing:.12em;text-transform:uppercase;margin-bottom:4px}
+.mname{font-family:var(--disp);font-weight:600;font-size:20px;margin-bottom:2px}
+.msub{color:var(--mid);font-size:13px;margin-bottom:14px}
+.wgrid{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin:12px 0}
+@media(max-width:640px){.wgrid{grid-template-columns:1fr}}
+.wcell{background:var(--raised);border:1px solid var(--line);border-radius:10px;padding:10px 12px}
+.wcell b{font-family:var(--mono);font-size:9px;letter-spacing:.14em;text-transform:uppercase;display:block;margin-bottom:3px}
+.wcell span{font-size:12.5px;color:var(--mid);line-height:1.45}
+.mh3{font-family:var(--disp);font-size:13px;color:var(--hi);margin:16px 0 6px;display:flex;align-items:center;gap:8px}
+.mh3 .ln{flex:1;height:1px;background:var(--line)}
+.mp{font-size:12.5px;color:var(--mid);line-height:1.55;margin-bottom:6px}
+.codebox{position:relative;margin:8px 0}
+.codebox pre{margin:0;max-height:260px}
+.cbtns{position:absolute;top:8px;right:8px;display:flex;gap:6px}
+.cbtn{font-family:var(--mono);font-size:10px;background:var(--raised);border:1px solid var(--line);color:var(--mid);border-radius:7px;padding:4px 10px;cursor:pointer}
+.cbtn:hover{color:var(--hi);border-color:var(--hi)}
+.kpis{display:flex;flex-wrap:wrap;gap:6px;margin-top:4px}
+.kpi{font-family:var(--mono);font-size:10px;color:var(--green);background:rgba(53,208,127,.08);border:1px solid rgba(53,208,127,.3);border-radius:12px;padding:3px 10px}
+</style>
+<div class="modalbg" id="modalbg" role="dialog" aria-modal="true" aria-label="Use case details"><div class="modal" id="modal"></div></div>
+<script>
+// ---- deep-dive modal (ND) ----
+function slug(s){return s.toLowerCase().replace(/[^a-z0-9]+/g,'_').replace(/^_|_$/g,'')}
+function tokens(h){const m=h.match(/\{\{(\w+)\}\}/g)||[];return m.map(x=>x.replace(/[{}]/g,''))}
+function kpisFor(txt){
+  const t=txt.toLowerCase();const out=[];
+  const map=[[/cart|checkout|drop-off/, ["Cart recovery rate","Checkout conversion","Revenue per session"]],
+  [/renew|expir/, ["Renewal rate","Churn rate","Revenue retention"]],
+  [/rec|picks|recommend|goes-well|for-you|aisle/, ["Unit CTR","Average order value","Items per order"]],
+  [/win-back|lapsed|dormant|comeback|missed/, ["Reactivation rate","Resurrected MAU"]],
+  [/streak|check-in|daily/, ["DAU/MAU stickiness","D7 and D30 retention"]],
+  [/upgrade|premium|upsell|pass|tier|battle/, ["ARPU","Plan mix / attach rate"]],
+  [/top-up|refill|reorder|replenish|usual|restock/, ["Repeat purchase rate","Order frequency"]],
+  [/kyc|verify|onboard/, ["Activation rate","Funnel completion"]],
+  [/trial/, ["Trial-to-paid conversion"]],
+  [/points|loyalty|redeem|birthday|reward/, ["Redemption rate","Program engagement"]],
+  [/bill|installment|pay/, ["On-time payment rate","Support ticket deflection"]],
+  [/subscri|paywall|meter/, ["Subscription conversion"]],
+  [/price-drop|price cut|fare|deal|offer|promo|bundle|flash|lto/, ["Offer conversion rate","Promo ROI"]],
+  [/booking|resume|quote/, ["Funnel resumption rate","Booking conversion"]],
+  [/appointment|adherence/, ["Show-up rate","Program adherence"]],
+  [/breaking|reads|briefing|story/, ["Session depth","Articles per session"]]];
+  map.forEach(([re,k])=>{if(re.test(t))k.forEach(x=>{if(!out.includes(x))out.push(x)})});
+  ["Viewed→Clicked CTR","Influenced conversions","Control-group lift"].forEach(x=>out.push(x));
+  return out.slice(0,6);}
+function leversFor(r){
+  const t=(r[2]+' '+r[3]+' '+r[7]).toLowerCase();const m=r[5];const L=[];
+  if(/expir|ends|left|last|until|deadline|sunday|friday|tomorrow/.test(t))L.push(["Urgency + loss aversion","a real deadline makes doing nothing feel like losing something."]);
+  if(/\{\{|name|your /.test(t)||m.includes('liquid')||m.includes('profile'))L.push(["Personal relevance","people notice their own name and their own numbers far more than generic copy."]);
+  if(m.includes('rec'))L.push(["Choice curation","a short, pre-picked set beats an overwhelming catalog; less effort, more action."]);
+  if(/streak|day \d|progress|tier|% |steps to/.test(t))L.push(["Endowed progress","visible progress people already own makes them protective of it."]);
+  if(/back in stock|price drop|price cut|only|limited/.test(t))L.push(["Scarcity + anchoring","the old price or the near-miss makes the new state feel like a win."]);
+  if(/usual|reorder|one-tap|1 tap|resume/.test(t))L.push(["Friction removal","the fewer steps between intent and done, the more people finish."]);
+  if(/free/.test(t))L.push(["Zero-price effect","free is processed emotionally, not mathematically."]);
+  if(/gold|platinum|welcome to|unlocked/.test(t))L.push(["Status","tier identity is a reward people work to keep."]);
+  if(!L.length)L.push(["Right message, right slot","context relevance: the message appears exactly where the decision happens."]);
+  return L.slice(0,2);}
+function kvPayload(r){
+  const[v,s,name,sc,t,m,loc,h,c]=r;const tk=tokens(h);
+  const o={};
+  if(s==='web')o.topic=slug(name);else o.slot=slug(loc);
+  o.headline=h;o.cta_label=c;
+  tk.forEach(x=>o[x.toLowerCase()]="{{ Profile."+x+" | default: '' }}");
+  o.deeplink=(s==='web'?'https://www.example-brand.com/':'app://')+slug(name);
+  o.campaign_ref=slug(v)+"_"+slug(name);
+  return JSON.stringify(o,null,2);}
+function ndCode(r){
+  const[v,s,name,sc,t,m,loc,h,c]=r;const sl=slug(name);
+  if(s==='web'&&t==='WKV')return {label:'Web listener (paste once, routes by topic)',code:
+'document.addEventListener("CT_web_native_display", function(e){\n  const data = e.detail;\n  if (data.kv.topic === "'+sl+'") {\n    render_'+sl+'(data.kv);            // your render into the slot\n    clevertap.renderNotificationViewed(data);\n  }\n});\nfunction render_'+sl+'(kv){\n  const el = document.querySelector("#'+sl+'_slot");\n  el.querySelector(".headline").innerText = kv.headline;\n  el.querySelector(".cta").innerText = kv.cta_label;\n  el.querySelector(".cta").onclick = () => {\n    clevertap.renderNotificationClicked(event.detail);\n    location.href = kv.deeplink;\n  };\n}'};
+  if(s==='web')return {label:'Dashboard config (no code needed for rendering)',code:
+'// Web Native Display · '+TN[t]+'\nTemplate      : '+TN[t]+'\nTarget Div ID : nd_'+sl+'\nDiv height    : match your container CSS (or leave for auto)\nClick-through : https://www.example-brand.com/'+sl+'\nMobile image  : optional, upload separately\n'+(t.indexOf('C')>0?'Slider time   : 5 seconds\n':'')+'\n// Only requirement in code: the container exists with a fallback\n<div id="nd_'+sl+'">\n  <!-- default content shown until/unless CleverTap responds -->\n</div>'};
+  if(t==='KV')return {label:'Android consumption (iOS mirrors via DisplayUnitDelegate)',code:
+'override fun onDisplayUnitsLoaded(units: ArrayList<CleverTapDisplayUnit>) {\n  units.forEach { unit ->\n    val kv = unit.customExtras\n    if (kv["slot"] == "'+slug(loc)+'") {\n      bind'+sl.replace(/_/g,'')+'Card(kv)   // your view, your design system\n      ct.pushDisplayUnitViewedEventForID(unit.unitID)\n    }\n  }\n}\n// on tap:\n// ct.pushDisplayUnitClickedEventForID(unit.unitID)'};
+  return {label:'App consumption (render + report)',code:
+'// '+TN[t]+' · unit fields come pre-structured\noverride fun onDisplayUnitsLoaded(units: ArrayList<CleverTapDisplayUnit>) {\n  val unit = units.firstOrNull() ?: return\n  val content = unit.contents.first()\n  card.title = content.title          // "'+h.replace(/"/g,'\\"')+'"\n  card.cta   = "'+c+'"\n  card.media = content.media\n  ct.pushDisplayUnitViewedEventForID(unit.unitID)\n}\n// on tap: ct.pushDisplayUnitClickedEventForID(unit.unitID)'};}
+function openND(i){
+  const r=D[i];const[v,s,name,sc,t,m,loc,h,c]=r;const B=BRANDS[v];
+  const parts=sc.split(':');const trig=parts[0].trim();const act=(parts[1]||sc).trim();
+  const wire=(s==='app'?wireApp(t,loc):wireWeb(t,loc));const exec=(s==='app'?execApp(t,loc,B,h,c):execWeb(t,loc,B,h,c));const zc=(s==='app'?'zp':'zb');const[stc,stl]=stampFor(r);
+  const K=kpisFor(name+' '+sc+' '+h);const L=leversFor(r);const code=ndCode(r);const kv=kvPayload(r);
+  const kvBlock=(m.includes('kv')||true)?'<div class="mh3">Custom key-value payload<span class="ln"></span></div><div class="codebox"><pre id="kvpre">'+kv.replace(/</g,'&lt;')+'</pre><div class="cbtns"><button class="cbtn" onclick="copyEl(\'kvpre\',this)">Copy</button><button class="cbtn" onclick="dl(\'kvpre\',\''+slug(name)+'_kv.json\')">Download</button></div></div><p class="mp">'+(m.includes('kv')?'This template ships only these keys; your code owns the pixels.':'Optional on this template: attach key-values for extra data your app can read alongside the rendered unit.')+'</p>':'';
+  document.getElementById('modal').innerHTML=
+   '<button class="mclose" onclick="closeModal()">✕</button>'
+  +'<div class="mvert" style="color:'+B.c+'">'+v+' · '+(s==='app'?'App':'Web')+' · '+TN[t]+' · '+B.n+' (fictional)</div>'
+  +'<div class="mname">'+name+' <span class="stamp '+stc+'" style="vertical-align:middle;margin-left:8px">'+stl+'</span></div><div class="msub">'+sc+'</div>'
+  +'<div class="mockpair big"><div class="mcol"><div class="zoomwrap '+zc+'"><div class="zoomin">'+wire+'</div></div><span class="mocklab">Wireframe</span></div><div class="mcol"><div class="zoomwrap '+zc+'"><div class="zoomin">'+exec+'</div></div><span class="mocklab ex">'+B.n+' · execution</span></div></div>'
+  +'<div class="mtags"><span class="mtag surf">'+(s==='app'?'APP':'WEB')+'</span><span class="mtag tmpl">'+TN[t]+'</span>'+mechTags(m).map(x=>'<span class="mtag mech">'+x+'</span>').join('')+(m.includes('kv')?'<span class="mtag dev">DEV WORK</span>':'')+'<span class="mtag">Renders in: '+loc+'</span></div>'
+  +'<div class="mh3">5W1H<span class="ln"></span></div>'
+  +'<div class="wgrid">'
+  +'<div class="wcell"><b>Who</b><span>Users matching: '+trig+'. Target via saved segment or live behavior; layer control group to prove lift.</span></div>'
+  +'<div class="wcell"><b>What</b><span>A '+TN[t]+' unit: "'+h+'" with CTA "'+c+'".</span></div>'
+  +'<div class="wcell"><b>When</b><span>Triggered by: '+trig+'. Delivered on next '+(s==='app'?'app open / unit fetch':'page load')+' after qualification; add frequency caps to stay polite.</span></div>'
+  +'<div class="wcell"><b>Where</b><span>'+loc+' ('+(s==='app'?'in-app slot the developers wired':'website container / event-routed slot')+').</span></div>'
+  +'<div class="wcell"><b>Why</b><span>'+act.charAt(0).toUpperCase()+act.slice(1)+'. The commercial job: move '+K[0].toLowerCase()+' without interrupting anyone.</span></div>'
+  +'<div class="wcell"><b>How</b><span>'+(m.includes('kv')?'Marketer ships the key-values; the '+(s==='app'?'app':'site')+' renders in its own design system and raises Viewed/Clicked by unit.':'CleverTap renders the template'+(s==='web'?' into your Div ID':' fields into the app slot')+'; personalization via '+m.split(',').join(' + ')+'; code raises Viewed/Clicked.')+'</span></div>'
+  +'</div>'
+  +kvBlock
+  +'<div class="mh3">'+code.label+'<span class="ln"></span></div>'
+  +'<div class="codebox"><pre id="codepre">'+code.code.replace(/</g,'&lt;')+'</pre><div class="cbtns"><button class="cbtn" onclick="copyEl(\'codepre\',this)">Copy</button><button class="cbtn" onclick="dl(\'codepre\',\''+slug(name)+'_'+s+'.txt\')">Download</button></div></div>'
+  +'<div class="mh3">Why it works<span class="ln"></span></div>'
+  +L.map(l=>'<p class="mp"><b style="color:var(--hi)">'+l[0]+':</b> '+l[1]+'</p>').join('')
+  +'<div class="mh3">KPIs this moves<span class="ln"></span></div>'
+  +'<div class="kpis">'+K.map(k=>'<span class="kpi">'+k+'</span>').join('')+'</div>'
+  +'<p class="mp" style="margin-top:10px;color:var(--dim)">Measure with campaign stats (Viewed, Clicked, CTR, Conversions, Revenue) plus a control group. Illustrative playbook, not a case study: never quote these as observed numbers.</p>';
+  _openModal();}
+function closeModal(){document.getElementById('modalbg').classList.remove('open');document.body.style.overflow='';if(_lastFocus)_lastFocus.focus()}
+function copyEl(id,btn){const t=document.getElementById(id).innerText;
+  if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t).then(()=>{btn.textContent='Copied!';setTimeout(()=>btn.textContent='Copy',1400)}).catch(()=>fallbackCopy(t,btn))}else fallbackCopy(t,btn)}
+function fallbackCopy(t,btn){const ta=document.createElement('textarea');ta.value=t;document.body.appendChild(ta);ta.select();try{document.execCommand('copy');btn.textContent='Copied!'}catch(e){btn.textContent='Select manually'}document.body.removeChild(ta);setTimeout(()=>btn.textContent='Copy',1400)}
+function dl(id,fn){const t=document.getElementById(id).innerText;const b=new Blob([t],{type:'text/plain'});const a=document.createElement('a');a.href=URL.createObjectURL(b);a.download=fn;a.click();URL.revokeObjectURL(a.href)}
+document.getElementById('modalbg').addEventListener('click',e=>{if(e.target.id==='modalbg')closeModal()});
+document.addEventListener('keydown',e=>{if(e.key==='Escape')closeModal()});
+
+// a11y: keyboard open on cards + modal focus management
+let _lastFocus=null;
+document.getElementById('gal').addEventListener('keydown',e=>{
+  if((e.key==='Enter'||e.key===' ')&&e.target.classList.contains('card')){e.preventDefault();e.target.click()}});
+const _openModal=()=>{_lastFocus=document.activeElement;
+  const m=document.getElementById('modalbg');m.classList.add('open');document.body.style.overflow='hidden';
+  const c=m.querySelector('.mclose');if(c)c.focus()};
+document.getElementById('modalbg').addEventListener('keydown',e=>{
+  if(e.key!=='Tab')return;
+  const f=[...document.getElementById('modal').querySelectorAll('button,[tabindex]')].filter(x=>x.offsetParent);
+  if(!f.length)return;const first=f[0],last=f[f.length-1];
+  if(e.shiftKey&&document.activeElement===first){e.preventDefault();last.focus()}
+  else if(!e.shiftKey&&document.activeElement===last){e.preventDefault();first.focus()}});
+document.getElementById('gal').addEventListener('click',e=>{const c=e.target.closest('.card');if(c)openND(+c.dataset.i)});
+
+// ---- cover gate ----
+(function(){
+  var cv=document.querySelector('.cover');if(!cv)return;
+  document.body.classList.add('gated');document.documentElement.classList.add('gated');(function(){var l=document.documentElement.getAttribute('data-theme')==='light';var lbl=l?'◐ Night mode':'◑ Day mode';document.querySelectorAll('.themetog').forEach(function(b){b.textContent=lbl;b.setAttribute('aria-pressed',l)})})();
+  var btn=document.getElementById('cvEnter');if(btn)btn.focus();
+  window.enterGallery=function(){
+    if(window.matchMedia('(prefers-reduced-motion: reduce)').matches){cv.classList.add('gone');}
+    else{cv.classList.add('away');setTimeout(function(){cv.classList.add('gone')},780);}
+    document.body.classList.remove('gated');document.documentElement.classList.remove('gated');window.scrollTo(0,0);
+    var m=document.getElementById('main');if(m){m.setAttribute('tabindex','-1');m.focus({preventScroll:true});}
+  };
+  document.addEventListener('keydown',function(e){
+    if(e.key==='Escape'&&!cv.classList.contains('gone')&&!document.getElementById('modalbg').classList.contains('open'))enterGallery();
+  });
+})();
+if(!window.matchMedia('(prefers-reduced-motion: reduce)').matches){
+  var _cf=document.getElementById('cvfield');
+  if(_cf)document.addEventListener('mousemove',function(e){
+    var x=(e.clientX/window.innerWidth-.5)*10,y=(e.clientY/window.innerHeight-.5)*8;
+    _cf.style.transform='rotateY('+x+'deg) rotateX('+(-y)+'deg)';
+  });
+}
+
+</script>
+<script>
+document.addEventListener("visibilitychange",function(){var st=document.hidden?"paused":"running";document.querySelectorAll(".bokeh b").forEach(function(x){x.style.animationPlayState=st});});
+</script>
+</body>
+</html>
